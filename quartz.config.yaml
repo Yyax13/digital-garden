@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: hoWo's Brain
-  pageTitleSuffix: "hoWo's Brain - "
+  pageTitleSuffix: "- hoWo's Brain"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -16,8 +16,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Felipa
+      body: Metamorphous
       code: IBM Plex Mono
     colors:
       lightMode:
