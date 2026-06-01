@@ -16,7 +16,7 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: "Metamorphous"
+      header: "Fraunces"
       body: "Noto Serif"
       code: "IBM Plex Mono"
     colors:
