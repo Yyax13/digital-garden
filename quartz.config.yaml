@@ -16,7 +16,7 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: "Fraunces"
+      header: "Imbue"
       body: "Noto Serif"
       code: "IBM Plex Mono"
     colors:
@@ -31,14 +31,14 @@ configuration:
         highlight: rgba(180, 5, 189, 0.08)
         textHighlight: "#b3aa0288"
       darkMode:
-        light: "#29193f"
-        lightgray: rgba(57, 54, 57, 0.25)
+        light: "#09181f"
+        lightgray: "#734673"
         gray: "#642464"
-        darkgray: "#f8e8f8"
-        dark: "#ffc0ff"
-        secondary: "#7b97aa"
+        darkgray: "#fff0ff"
+        dark: "#ff00ff"
+        secondary: "#ff55ff"
         tertiary: "#b405bd"
-        highlight: rgba(143, 159, 169, 0.15)
+        highlight: rgba(151, 0, 255, 0.078
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
