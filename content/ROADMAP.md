@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-05-07T18:51:55.458-03:00
-modified: 2026-05-29T16:08:16.039-03:00
+modified: 2026-06-15T14:40:47.167-03:00
 ---
 
 # Tech Nerd
@@ -1046,6 +1046,8 @@ modified: 2026-05-29T16:08:16.039-03:00
 - Dynamic programming
 - Greedy algorithms
 - Graph algorithms (DFS, BFS, Dijkstra)
+- [[Random Number Generators|RNG Algorithms]]
+- Hash Algorithms
 - Complexity analysis (Big-O)
 
 ### Compiler Internals

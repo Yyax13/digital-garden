@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-05-28T18:18:47.975-03:00
-modified: 2026-06-01T18:33:06.382-03:00
+modified: 2026-06-02T14:54:02.853-03:00
 tags:
   - unfinished
 ---
@@ -27,7 +27,7 @@ The Kernel is the core of the Linux Operating System, it's the software between 
 - _**Resources Allocation**_ - Distributes CPU, memory, virtual memory and I/O resources among processes and networks;
 - _**Device Management**_ - Controls hardware device through device drivers;
 - _**Application Interaction**_ - Acts as a bridge between the user-land and the hardware/resources, providing a clean syscalls interface.
-- _**File System**_  - The kernel provides the file system and abstraction over they all, so the applications can easily creates,
+- _**File System**_  - The kernel provides the file system and abstraction over they all, so the applications can easily create, read and delete files.
 
 ## The Shell
 
