@@ -16,9 +16,9 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: "Cormorant Garamond"
-      body: "Noto Serif"
-      code: "IBM Plex Mono"
+      header: Cormorant Garamond
+      body: Noto Serif
+      code: IBM Plex Mono
     colors:
       lightMode:
         light: "#ecd8ed"
@@ -205,6 +205,7 @@ plugins:
       position: left
       priority: 35
       group: toolbar
+    options: {}
   - source: github:quartz-community/breadcrumbs
     enabled: true
     layout:
@@ -212,10 +213,15 @@ plugins:
       priority: 5
       condition: not-index
   - source: github:quartz-community/comments
-    enabled: false
+    enabled: true
     options:
       provider: giscus
       options: {}
+      repo: Yyax13/digital-garden
+      repoId: R_kgDOSrpF-g
+      category: Announcements
+      categoryId: DIC_kwDOSrpF-s4DAt0-
+      lang: en
     layout:
       position: afterBody
       priority: 10
