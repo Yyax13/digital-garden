@@ -1,1 +1,1 @@
-export {}
+export { ClickableImages } from "./clickableImages"
