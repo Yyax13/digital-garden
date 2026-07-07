@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-05-07T16:07:16.860-03:00
-modified: 2026-05-29T16:08:04.067-03:00
+created: 2026-07-01T15:59:27.048-03:00
+modified: 2026-07-01T15:59:27.048-03:00
 ---
 
 The sexagesimal counting system uses base 60 to count.

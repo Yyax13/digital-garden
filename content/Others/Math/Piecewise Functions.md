@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-06-09T17:24:14.765-03:00
-modified: 2026-06-11T14:10:54.753-03:00
+created: 2026-07-01T15:59:27.048-03:00
+modified: 2026-07-01T15:59:27.048-03:00
 ---
 
 # Piecewise Functions

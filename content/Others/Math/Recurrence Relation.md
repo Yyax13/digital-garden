@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-06-09T18:05:31.770-03:00
-modified: 2026-06-11T14:11:07.520-03:00
+created: 2026-07-01T15:59:27.048-03:00
+modified: 2026-07-01T15:59:27.048-03:00
 ---
 
 # Recurrence Relation

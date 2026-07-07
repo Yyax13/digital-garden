@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-05-19T16:28:27.422-03:00
-modified: 2026-05-29T16:07:11.417-03:00
+created: 2026-07-01T15:59:27.048-03:00
+modified: 2026-07-01T15:59:27.048-03:00
 ---
 
 # Earthly Sovereign

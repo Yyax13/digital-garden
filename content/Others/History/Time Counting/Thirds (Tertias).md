@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-05-07T16:21:06.098-03:00
-modified: 2026-05-29T16:08:00.370-03:00
+created: 2026-07-01T15:59:27.048-03:00
+modified: 2026-07-01T15:59:27.048-03:00
 ---
 
 We used to count the _pars minuta tertia_ as part of the time counting.

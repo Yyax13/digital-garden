@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-05-18T16:47:46.433-03:00
-modified: 2026-05-29T16:07:50.307-03:00
+created: 2026-07-01T15:59:27.048-03:00
+modified: 2026-07-01T15:59:27.048-03:00
 ---
 
 # Abhidharmakośa-bhāsya

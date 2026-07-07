@@ -1,7 +1,7 @@
 ---
 publish: true
-created: 2026-05-29T14:55:03.522-03:00
-modified: 2026-05-29T16:06:08.380-03:00
+created: 2026-07-01T15:59:26.976-03:00
+modified: 2026-07-01T15:59:26.976-03:00
 ---
 
 In this paper, we'll learn about process injection in linux using PTRACE.
