@@ -204,6 +204,12 @@
       "subdir": "plugin",
       "installedAt": "2026-05-29T18:49:03.085Z"
     },
+    "quartz5-clickable-images": {
+      "source": "github:HappyPotatoHead/quartz5-clickable-images",
+      "resolved": "https://github.com/HappyPotatoHead/quartz5-clickable-images.git",
+      "commit": "2791c885d1dee46b78aca6a9da54ad865498149f",
+      "installedAt": "2026-07-07T21:01:57.569Z"
+    },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",
       "resolved": "https://github.com/quartz-community/reader-mode.git",
