@@ -216,12 +216,12 @@ plugins:
     enabled: true
     options:
       provider: giscus
-      options: {}
-      repo: Yyax13/digital-garden
-      repoId: R_kgDOSrpF-g
-      category: Announcements
-      categoryId: DIC_kwDOSrpF-s4DAt0-
-      lang: en
+      options:
+        repo: Yyax13/digital-garden
+        repoId: R_kgDOSrpF-g
+        category: Announcements
+        categoryId: DIC_kwDOSrpF-s4DAt0-
+        lang: en
     layout:
       position: afterBody
       priority: 10
