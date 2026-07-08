@@ -160,8 +160,8 @@ plugins:
   - source: github:quartz-community/graph
     enabled: true
     layout:
-      position: right
-      priority: 10
+      position: bottom
+      priority: 5
   - source: github:quartz-community/search
     enabled: true
     layout:
