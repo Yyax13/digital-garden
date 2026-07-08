@@ -160,7 +160,7 @@ plugins:
   - source: github:quartz-community/graph
     enabled: true
     layout:
-      position: bottom
+      position: afterBody
       priority: 5
   - source: github:quartz-community/search
     enabled: true
