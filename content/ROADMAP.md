@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-07-01T15:59:27.048-03:00
-modified: 2026-07-01T15:59:27.048-03:00
+modified: 2026-07-10T15:49:07.769-03:00
 ---
 
 # Tech Nerd
@@ -161,9 +161,10 @@ modified: 2026-07-01T15:59:27.048-03:00
 
 - What is memory
 - Bits, bytes, words
+- Memory addressing
+- [[Byte Endianness]]
 - RAM vs ROM
 - SRAM vs DRAM
-- Memory addressing
 - Memory hierarchy basics
 
 ### Registers
@@ -937,6 +938,12 @@ modified: 2026-07-01T15:59:27.048-03:00
 
 - Interfacing with OS
 
+- Meta-programming
+
+- Bit-fields
+
+- Bitmasks
+
 - Book: The C Programming Language (K\&R)
 
 - Book: Modern C
@@ -958,6 +965,55 @@ modified: 2026-07-01T15:59:27.048-03:00
 - Book: Effective C++
 
 - Book: C++ Primer
+
+### Compiler Internals
+
+- Lexical analysis
+
+- Parsing (AST)
+
+- Semantic analysis
+
+- Intermediate representation (IR)
+
+- Optimization passes
+
+- Code generation
+
+- Book: Compilers: Principles, Techniques, and Tools (Dragon Book)
+
+- Book: Engineering a Compiler
+
+### Assembler Internals
+
+- Instruction encoding
+- Symbol resolution
+- Relocation
+- Macro processing
+- Object file generation
+
+### Linker Internals
+
+- Static vs dynamic linking
+
+- Symbol tables
+
+- Relocations
+
+- GOT/PLT
+
+- Loader interaction
+
+- Book: Linkers and Loaders (John Levine)
+
+### Debugging
+
+- GDB / LLDB
+- WinDbg basics
+- Breakpoints, watchpoints
+- Stack traces
+- Memory debugging
+- Reverse debugging
 
 ### Rust
 
@@ -1049,55 +1105,6 @@ modified: 2026-07-01T15:59:27.048-03:00
 - [[Random Number Generators|RNG Algorithms]]
 - Hash Algorithms
 - Complexity analysis (Big-O)
-
-### Compiler Internals
-
-- Lexical analysis
-
-- Parsing (AST)
-
-- Semantic analysis
-
-- Intermediate representation (IR)
-
-- Optimization passes
-
-- Code generation
-
-- Book: Compilers: Principles, Techniques, and Tools (Dragon Book)
-
-- Book: Engineering a Compiler
-
-### Assembler Internals
-
-- Instruction encoding
-- Symbol resolution
-- Relocation
-- Macro processing
-- Object file generation
-
-### Linker Internals
-
-- Static vs dynamic linking
-
-- Symbol tables
-
-- Relocations
-
-- GOT/PLT
-
-- Loader interaction
-
-- Book: Linkers and Loaders (John Levine)
-
-### Debugging
-
-- GDB / LLDB
-- WinDbg basics
-- Breakpoints, watchpoints
-- Stack traces
-- Memory debugging
-- Reverse debugging
 
 ### Testing
 
@@ -2410,7 +2417,6 @@ modified: 2026-07-01T15:59:27.048-03:00
 - What is binary exploitation (memory corruption, control flow hijacking)
 - Von Neumann architecture (code and data together)
 - Process memory layout (text, data, bss, heap, stack)
-- Endianness (little-endian vs big-endian)
 - x86/x64 calling conventions (cdecl, stdcall, fastcall, System V AMD64)
 - Stack frame layout (saved RIP, saved RBP, local variables)
 - Registers (general purpose, instruction pointer, stack pointer, base pointer)
