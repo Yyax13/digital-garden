@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-07-09T17:23:36.473-03:00
-modified: 2026-07-10T15:05:49.973-03:00
+modified: 2026-07-10T15:10:52.520-03:00
 ---
 
 Following the division rule of the [[The Exponentiation Rules|Exponentiation Rules]]
@@ -22,4 +22,6 @@ $$
 x^0 = 1
 $$
 
-$\frac{x^a}{x^a} = x^0 = 1$
+$$
+\frac{x^a}{x^a} = x^0 = 1
+$$
