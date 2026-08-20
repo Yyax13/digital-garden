@@ -19,27 +19,28 @@ configuration:
       header: Cormorant Garamond
       body: Noto Serif
       code: IBM Plex Mono
-    colors:
-      lightMode:
-        light: "#ecd8ed"
-        lightgray: rgba(90, 70, 110, 0.15)
-        gray: "#b89cc2"
-        darkgray: "#5d4a68"
-        dark: "#29193f"
-        secondary: "#6f87a0"
-        tertiary: "#b405bd"
-        highlight: rgba(180, 5, 189, 0.08)
-        textHighlight: "#b3aa0288"
-      darkMode:
-        light: "#09181f"
-        lightgray: rgba(115,38,115, 0.15)
-        gray: "#642464"
-        darkgray: "#fff0ff"
-        dark: "#ff00ff"
-        secondary: "#ff55ff"
-        tertiary: "#b405bd"
-        highlight: rgba(151, 0, 255, 0.078)
-        textHighlight: "#b3aa0288"
+  colors:
+    lightMode:
+      light: "#f5f5f5"
+      lightgray: "#d0d0d0"
+      gray: "#888888"
+      darkgray: "#333333"
+      dark: "#0a0a0a"
+      secondary: "#8b0000"
+      tertiary: "#cc1111"
+      highlight: rgba(139, 0, 0, 0.10)
+      textHighlight: "#cc111188"
+
+    darkMode:
+      light: "#0a0a0a"
+      lightgray: "#313131"
+      gray: "#444444"
+      darkgray: "#cccccc"
+      dark: "#ffffff"
+      secondary: "#cc1111"
+      tertiary: "#dd2222"
+      highlight: rgba(139, 0, 0, 0.25)
+      textHighlight: "#cc111188"
 plugins:
   - source: github:HappyPotatoHead/quartz5-clickable-images
     enabled: true
