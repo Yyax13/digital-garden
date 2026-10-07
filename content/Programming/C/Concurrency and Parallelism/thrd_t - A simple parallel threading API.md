@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-10-05T15:21:02.522-03:00
-modified: 2026-10-07T18:35:32.142-03:00
+modified: 2026-10-07T18:55:32.173-03:00
 ---
 
 # thrd\_t - A simple parallel threading API
@@ -49,18 +49,15 @@ In this code snippet `thrd_t thread` is a handle for one thread, controlled usin
 
    But we need to point a thing: the `thrd_join` function also return a `int`, that is the join operation result:
 
-   ```c
-   ```
-
+```c
 enum {
-thrd\_success
-thrd\_nomem
-thrd\_timedout
-thrd\_busy
-thrd\_error
+    thrd_success
+    thrd_nomem
+    thrd_timedout
+    thrd_busy
+    thrd_error
 };
-
-````
+```
 
 # Multiple Workers for Multiple Tasks (M:N Relationship)
 
@@ -75,41 +72,41 @@ thrd\_error
 #define W 16              // For just 16 workers
 
 struct worker_args {
- int id;
- int begin;
- int end;
+    int id;
+    int begin;
+    int end;
 };
 
 int worker(void *arg) {
- struct worker_args *args = arg;
- printf("worker %d: [%d, %d)\n", args->id, args->begin, args->end);
+    struct worker_args *args = arg;
+    printf("worker %d: [%d, %d)\n", args->id, args->begin, args->end);
 
- volatile unsigned long x = 0;
- for (int i = args->begin; i < args->end; i++) {
-     for (int _i = 0; _i < ITERATIONS; _i++) {
-         x ^= i * _i;
-     }
- }
+    volatile unsigned long x = 0;
+    for (int i = args->begin; i < args->end; i++) {
+        for (int _i = 0; _i < ITERATIONS; _i++) {
+            x ^= i * _i;
+        }
+    }
 
- printf("worker %d: x -> %ld\n", args->id, x);
- return 0;
+    printf("worker %d: x -> %ld\n", args->id, x);
+    return 0;
 }
 
 int main() {
- thrd_t threads[W];
- struct worker_args args[W];
+    thrd_t threads[W];
+    struct worker_args args[W];
 
- for (int i = 0; i < W; i++) {
-     args[i] = (struct worker_args){
-         .id = i, .begin = i * (T / W), .end = (i + 1) * (T / W)};
+    for (int i = 0; i < W; i++) {
+        args[i] = (struct worker_args){
+            .id = i, .begin = i * (T / W), .end = (i + 1) * (T / W)};
 
-     thrd_create(&threads[i], worker, &args[i]);
- }
+        thrd_create(&threads[i], worker, &args[i]);
+    }
 
- for (int i = 0; i < W; i++)
-     thrd_join(threads[i], NULL);
+    for (int i = 0; i < W; i++)
+        thrd_join(threads[i], NULL);
 }
-````
+```
 
 This is a macro-guided M:N working model, where we create two macros:
 
