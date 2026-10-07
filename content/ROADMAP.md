@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-07-01T15:59:27.048-03:00
-modified: 2026-07-10T15:49:07.769-03:00
+modified: 2026-10-07T16:05:23.714-03:00
 ---
 
 # Tech Nerd
@@ -934,6 +934,14 @@ modified: 2026-07-10T15:49:07.769-03:00
 
 - Undefined behavior
 
+- Function Pointers
+
+- Recursive Programming
+
+- Socket
+
+- Glibc specific APIs
+
 - Low-level I/O
 
 - Interfacing with OS
@@ -943,6 +951,10 @@ modified: 2026-07-10T15:49:07.769-03:00
 - Bit-fields
 
 - Bitmasks
+
+- [[Programming/C/Concurrency and Parallelism/index|Parallelism]]
+
+- Concurrency
 
 - Book: The C Programming Language (K\&R)
 
