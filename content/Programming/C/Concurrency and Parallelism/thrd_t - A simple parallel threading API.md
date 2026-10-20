@@ -1,14 +1,14 @@
 ---
 publish: true
 created: 2026-10-05T15:21:02.522-03:00
-modified: 2026-10-07T18:55:32.173-03:00
+modified: 2026-10-19T15:35:42.865-03:00
 ---
 
 # thrd\_t - A simple parallel threading API
 
 The `thrd_t` is a parallel threading API struct defined in `<threads.h>` _glibc_ header. It's literally a `pthread` wrapper that follows the C11 standard: just cast some types and map returning codes using `thrd_err_map` internal function.
 
-# Introduction and ELI5-like Example
+# Introduction
 
 The `thrd_t` type is defined as:
 
