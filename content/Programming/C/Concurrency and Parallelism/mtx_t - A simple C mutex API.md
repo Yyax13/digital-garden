@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-10-19T14:57:30.983-03:00
-modified: 2026-10-21T18:08:38.162-03:00
+modified: 2026-10-21T18:47:37.549-03:00
 tags:
   - unfinished
 ---
@@ -82,6 +82,8 @@ In the `mtx_timedlock` and `mtx_trylock` you shall check for errors, that follow
 #include <stdio.h>
 #include <time.h>
 
+#define SEC_NSEC 1e9
+
 int main(void) {
 	mtx_t mu;
 	if (mtx_init(&mu, mtx_plain) != thrd_success) {
@@ -105,6 +107,18 @@ int main(void) {
 	
 	// timedlock example
 	struct timespec ts;
+	timespec_get(&ts, TIME_UTC);
+	
+	// Add 5s to timer
+	ts.tv_sec += 5;
+	ts.tv_nsec += 5 * SEC_NSEC;
+	
+	switch (mtx_timedlock(&mu, &ts)) {
+		/** 
+		 * Same switch 
+		 * You must check thrd_timeout instead of thrd_busy
+		 */
+	}
 	
 	return 0;
 }
