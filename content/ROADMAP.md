@@ -1,14 +1,12 @@
 ---
 publish: true
-created: 2026-07-01T15:59:27.048-03:00
-modified: 2026-10-22T16:40:56.697-03:00
+created: 2026-10-26T14:12:35.314-03:00
+modified: 2026-10-26T18:09:43.272-03:00
 ---
 
-# Tech Nerd
+# History of recent technology
 
-## History of recent technology
-
-### Early Calculation & Mechanical Era
+## Early Calculation & Mechanical Era
 
 - Abacus [[Abacus - Short Note]] [[Abacus - Long Note]]
 - Antikythera Mechanism
@@ -16,35 +14,35 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Leibniz Step Reckoner
 - Jacquard Loom (punch cards)
 
-### Industrial & Analytical Machines
+## Industrial & Analytical Machines
 
 - Charles Babbage Difference Engine
 - Charles Babbage Analytical Engine
 - Ada Lovelace algorithms
 - Boolean Algebra (George Boole)
 
-### Early Electrical & Electromechanical Computing
+## Early Electrical & Electromechanical Computing
 
 - Telegraph and early communication systems
 - Hollerith Tabulating Machine (IBM origins)
 - Relay-based computers (Zuse Z3)
 - Turing Machine concept (Alan Turing)
 
-### World War II & First Electronic Computers
+## World War II & First Electronic Computers
 
 - Colossus (codebreaking)
 - ENIAC
 - EDVAC architecture (Von Neumann architecture)
 - UNIVAC I
 
-### Transistor & Hardware Evolution
+## Transistor & Hardware Evolution
 
 - Invention of the transistor (Bell Labs)
 - Integrated Circuits (ICs)
 - Moore’s Law
 - Early mainframes and minicomputers
 
-### Personal Computing Revolution
+## Personal Computing Revolution
 
 - Altair 8800
 - Apple I and Apple II
@@ -52,7 +50,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Microsoft DOS
 - Graphical User Interfaces (Xerox PARC, Macintosh)
 
-### Networking & Internet
+## Networking & Internet
 
 - ARPANET
 - TCP/IP protocol
@@ -60,7 +58,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - World Wide Web (Tim Berners-Lee)
 - Web browsers (Netscape, Internet Explorer)
 
-### Software Engineering & Open Source
+## Software Engineering & Open Source
 
 - UNIX operating system
 - C programming language
@@ -68,14 +66,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Linux kernel
 - GNU Project & Free Software Movement
 
-### Mobile & Wireless Revolution
+## Mobile & Wireless Revolution
 
 - GSM networks
 - Smartphones (iPhone, Android)
 - Mobile applications ecosystem
 - Wi-Fi and Bluetooth
 
-### Cloud Computing & Big Data
+## Cloud Computing & Big Data
 
 - Virtualization
 - Amazon Web Services (AWS)
@@ -83,7 +81,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Hadoop ecosystem
 - Distributed systems
 
-### Artificial Intelligence & Machine Learning
+## Artificial Intelligence & Machine Learning
 
 - Early AI research (symbolic AI)
 - Neural networks resurgence
@@ -91,7 +89,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Natural Language Processing (NLP)
 - Generative AI models
 
-### Cybersecurity & Cryptography
+## Cybersecurity & Cryptography
 
 - Public-key cryptography (RSA)
 - SSL/TLS
@@ -99,7 +97,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Ethical hacking and penetration testing
 - Blockchain technology
 
-### Modern Computing Trends
+## Modern Computing Trends
 
 - Internet of Things (IoT)
 - Edge computing
@@ -107,9 +105,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Augmented Reality (AR) & Virtual Reality (VR)
 - Autonomous systems (self-driving cars)
 
-## How computers works
+# How computers works
 
-### Electricity and signals
+## Electricity and signals
 
 - Voltage, current, resistance
 - Ohm’s Law
@@ -119,7 +117,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Clock signals
 - Timing and propagation delay
 
-### Transistors
+## Transistors
 
 - What is a transistor
 - BJT vs MOSFET
@@ -129,7 +127,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Power consumption (dynamic vs static)
 - Scaling and nanometer process
 
-### Logic gates
+## Logic gates
 
 - NOT, AND, OR
 - NAND, NOR
@@ -138,7 +136,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Gate composition
 - Universal gates (NAND/NOR)
 
-### Combinational logic
+## Combinational logic
 
 - Boolean algebra simplification
 - Karnaugh maps
@@ -148,7 +146,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Adders (half adder, full adder)
 - Comparators
 
-### Sequential logic
+## Sequential logic
 
 - Latches (SR, D)
 - Flip-flops (JK, T, D)
@@ -157,7 +155,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Mealy vs Moore machines
 - Timing constraints (setup/hold)
 
-### Memory basics
+## Memory basics
 
 - What is memory
 - Bits, bytes, words
@@ -167,7 +165,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SRAM vs DRAM
 - Memory hierarchy basics
 
-### Registers
+## Registers
 
 - Register design
 - Shift registers
@@ -175,7 +173,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Load/store operations
 - Temporary storage in CPU
 
-### Datapaths
+## Datapaths
 
 - Datapath design basics
 - Data flow between components
@@ -183,7 +181,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Pipelined vs non-pipelined datapaths
 - Hazard types (data, control, structural)
 
-### ALU (Arithmetic Logic Unit)
+## ALU (Arithmetic Logic Unit)
 
 - Arithmetic operations (add, sub, mul, div)
 - Bitwise operations
@@ -191,7 +189,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Flags (zero, carry, overflow, sign)
 - Floating point basics (FPU)
 
-### Control Unit
+## Control Unit
 
 - Hardwired control
 - Microprogrammed control
@@ -199,7 +197,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Control signals
 - Micro-operations
 
-### More memory stuff
+## More memory stuff
 
 - Cache memory (L1, L2, L3)
 - Cache coherence
@@ -208,7 +206,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - TLB (Translation Lookaside Buffer)
 - Memory-mapped I/O
 
-### Buses and hardware communication
+## Buses and hardware communication
 
 - Data bus
 - Address bus
@@ -218,7 +216,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - DMA (Direct Memory Access)
 - PCIe, SATA basics
 
-### Modern CPUs
+## Modern CPUs
 
 - Instruction Set Architecture (ISA)
 - RISC vs CISC
@@ -230,7 +228,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Multicore processors
 - Hyper-threading
 
-### Advanced Memory Stuff
+## Advanced Memory Stuff
 
 - NUMA architecture
 - Persistent memory
@@ -238,7 +236,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Memory bandwidth vs latency
 - Cache optimization strategies
 
-### GPU Concepts
+## GPU Concepts
 
 - Parallel processing model
 - SIMD/SIMT architecture
@@ -247,7 +245,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Memory hierarchy in GPUs
 - Graphics pipeline basics
 
-### NPUs Concepts
+## NPUs Concepts
 
 - Neural network acceleration
 - Tensor operations
@@ -256,7 +254,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - AI inference vs training hardware
 - Edge AI hardware
 
-### System-level integration
+## System-level integration
 
 - Motherboard architecture
 - Chipsets
@@ -265,7 +263,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Boot process
 - Hardware-software interaction
 
-### Operating system interaction
+## Operating system interaction
 
 - Process and thread management
 - Scheduling
@@ -274,7 +272,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Drivers
 - Interrupt handling
 
-### Performance & optimization
+## Performance & optimization
 
 - Latency vs throughput
 - Amdahl’s Law
@@ -283,7 +281,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Cache locality
 - Parallelism
 
-### Emerging architectures
+## Emerging architectures
 
 - Quantum computing basics
 - Neuromorphic chips
@@ -291,9 +289,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - ASIC design
 - Heterogeneous computing
 
-## Linux
+# Linux
 
-### Foundations
+## Foundations
 
 - [[What is an operating system]]
 
@@ -313,7 +311,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Computer Systems: A Programmer’s Perspective (CS:APP)
 
-### Process Model
+## Process Model
 
 - Process creation (fork, vfork, clone)
 - execve and program loading
@@ -323,7 +321,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Zombie and orphan processes
 - Credentials (UID, GID)
 
-### Threads & Concurrency
+## Threads & Concurrency
 
 - POSIX threads (pthreads)
 
@@ -341,7 +339,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Programming with POSIX Threads
 
-### Signals
+## Signals
 
 - Signal delivery
 - Signal handlers
@@ -350,7 +348,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Real-time signals
 - Signal safety
 
-### Files & File I/O
+## Files & File I/O
 
 - File descriptors
 - open, read, write, close
@@ -360,7 +358,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Buffering vs unbuffered I/O
 - stdio vs syscalls
 
-### Advanced File I/O
+## Advanced File I/O
 
 - vectored I/O (readv/writev)
 - direct I/O
@@ -368,7 +366,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - splice, sendfile
 - file locking (fcntl, flock)
 
-### Filesystems Internals
+## Filesystems Internals
 
 - VFS (Virtual File System)
 
@@ -386,7 +384,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Linux Kernel Development
 
-### Memory Management
+## Memory Management
 
 - Virtual memory
 - Paging
@@ -397,7 +395,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Copy-on-write (COW)
 - NUMA basics
 
-### Shared Libraries & Linking
+## Shared Libraries & Linking
 
 - Static vs dynamic linking
 - ELF sections and symbols
@@ -407,7 +405,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - dlopen, dlsym, dlclose
 - Symbol versioning
 
-### Interprocess Communication (IPC)
+## Interprocess Communication (IPC)
 
 - Pipes and FIFOs
 - System V IPC
@@ -420,7 +418,7 @@ modified: 2026-10-22T16:40:56.697-03:00
   - Shared memory
 - Memory-mapped files
 
-### Synchronization
+## Synchronization
 
 - Semaphores
 - Mutexes
@@ -429,7 +427,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Barriers
 - Lock-free concepts
 
-### Sockets & Networking
+## Sockets & Networking
 
 - socket(), bind(), listen(), accept()
 - TCP vs UDP
@@ -438,7 +436,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - getaddrinfo
 - Client-server architecture
 
-### TCP/IP Internals
+## TCP/IP Internals
 
 - OSI vs TCP/IP model
 
@@ -454,7 +452,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: TCP/IP Illustrated (Stevens)
 
-### Advanced Socket Programming
+## Advanced Socket Programming
 
 - epoll, select, poll
 - Non-blocking I/O
@@ -464,7 +462,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Socket options
 - Zero-copy (sendfile, mmap)
 
-### Server Design
+## Server Design
 
 - Iterative vs concurrent servers
 - Fork-based servers
@@ -472,7 +470,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Event-driven architecture
 - Reactor pattern
 
-### Terminals & TTY
+## Terminals & TTY
 
 - TTY subsystem
 - Terminal modes (canonical/raw)
@@ -480,7 +478,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Pseudoterminals (PTY)
 - Shell interaction
 
-### Kernel Architecture
+## Kernel Architecture
 
 - Kernel subsystems
 - Scheduler
@@ -489,21 +487,21 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Networking stack
 - Device model
 
-### System Calls & Kernel Boundary
+## System Calls & Kernel Boundary
 
 - Syscall interface
 - Context switch
 - Interrupts and traps
 - syscall vs vDSO
 
-### Scheduling
+## Scheduling
 
 - CFS (Completely Fair Scheduler)
 - Real-time scheduling
 - Scheduling classes
 - Preemption
 
-### Device Drivers
+## Device Drivers
 
 - Character devices
 
@@ -517,14 +515,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Linux Device Drivers
 
-### Interrupts & Low-Level
+## Interrupts & Low-Level
 
 - Interrupt handling
 - Softirqs, tasklets
 - Workqueues
 - DMA basics
 
-### Boot Process
+## Boot Process
 
 - BIOS/UEFI
 - Bootloader (GRUB)
@@ -532,7 +530,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - init process
 - initramfs
 
-### Init Systems & Userspace
+## Init Systems & Userspace
 
 - systemd internals
 - Units, targets
@@ -540,7 +538,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Logging (journald)
 - D-Bus basics
 
-### Security
+## Security
 
 - Permissions model
 - Capabilities
@@ -549,7 +547,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Seccomp
 - ASLR
 
-### Containers & Isolation
+## Containers & Isolation
 
 - Namespaces (pid, net, mount, ipc, user)
 
@@ -561,7 +559,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Containers from Scratch (resources)
 
-### Performance & Observability
+## Performance & Observability
 
 - strace, ltrace
 
@@ -579,14 +577,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: BPF Performance Tools
 
-### Advanced I/O Models
+## Advanced I/O Models
 
 - Blocking vs non-blocking
 - select, poll
 - epoll internals
 - io\_uring
 
-### Advanced Memory Topics
+## Advanced Memory Topics
 
 - Huge pages
 - Memory overcommit
@@ -594,7 +592,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Page reclaim
 - OOM killer
 
-### Kernel Development
+## Kernel Development
 
 - Kernel source navigation
 - Building kernel
@@ -602,14 +600,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Debugging kernel (kgdb)
 - printk, tracing
 
-### Distributed & Modern Linux
+## Distributed & Modern Linux
 
 - Networking stack tuning
 - High-performance servers
 - Load balancing
 - NUMA-aware systems
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Write your own shell
 - Implement a TCP server (epoll)
@@ -619,9 +617,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Debug real crashes
 - Contribute to kernel
 
-## Windows Internals (Kernel + Userspace + Systems Programming)
+# Windows Internals (Kernel + Userspace + Systems Programming)
 
-### Foundations
+## Foundations
 
 - Windows NT architecture overview
 
@@ -643,7 +641,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Windows System Programming (Johnson Hart)
 
-### Processes & Threads
+## Processes & Threads
 
 - Process creation (CreateProcess)
 - Thread creation (CreateThread)
@@ -653,7 +651,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Context switching
 - Handle table
 
-### Memory Management
+## Memory Management
 
 - Virtual memory system
 - Paging and working sets
@@ -663,7 +661,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Address space layout randomization (ASLR)
 - DEP (Data Execution Prevention)
 
-### Windows Object Manager
+## Windows Object Manager
 
 - Object types
 - Handles vs pointers
@@ -671,7 +669,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Reference counting
 - Security descriptors
 
-### File Systems & I/O
+## File Systems & I/O
 
 - NTFS internals
 - File objects
@@ -680,7 +678,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Cache Manager
 - Fast I/O vs IRP path
 
-### Synchronization
+## Synchronization
 
 - Critical sections
 - Mutexes
@@ -689,7 +687,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SRW locks
 - Interlocked operations
 
-### Interprocess Communication (IPC)
+## Interprocess Communication (IPC)
 
 - Named pipes
 - Anonymous pipes
@@ -698,7 +696,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - RPC (Remote Procedure Call)
 - COM/DCOM basics
 
-### Dynamic Linking & PE Internals
+## Dynamic Linking & PE Internals
 
 - PE structure (headers, sections)
 - Import/export tables
@@ -708,14 +706,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - TLS (Thread Local Storage)
 - Delay loading
 
-### System Calls & Native API
+## System Calls & Native API
 
 - Nt\* / Zw\* functions
 - System Service Dispatch Table (SSDT)
 - sysenter/syscall mechanism
 - Transition user → kernel
 
-### Scheduling
+## Scheduling
 
 - Thread scheduler
 - Priority levels
@@ -723,7 +721,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Preemption
 - Affinity and CPU groups
 
-### Windows Kernel Architecture
+## Windows Kernel Architecture
 
 - Executive subsystems
 - Memory manager
@@ -733,7 +731,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Plug and Play manager
 - Power manager
 
-### Device Drivers
+## Device Drivers
 
 - Driver types (WDM, KMDF, UMDF)
 
@@ -751,7 +749,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Developing Drivers with WDF
 
-### Interrupts & Low-Level
+## Interrupts & Low-Level
 
 - Interrupt handling
 - IRQL (Interrupt Request Levels)
@@ -759,7 +757,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - APC (Asynchronous Procedure Calls)
 - Spinlocks
 
-### Boot Process
+## Boot Process
 
 - UEFI / BIOS
 - Windows Boot Manager
@@ -767,7 +765,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Kernel initialization
 - Session manager (smss.exe)
 
-### Processes in Userspace
+## Processes in Userspace
 
 - csrss.exe
 - wininit.exe
@@ -775,14 +773,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - lsass.exe
 - svchost.exe
 
-### Services & SCM
+## Services & SCM
 
 - Service Control Manager
 - Windows services lifecycle
 - Service APIs
 - Background services
 
-### Security
+## Security
 
 - Access tokens
 - SID (Security Identifier)
@@ -791,7 +789,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Integrity levels
 - Windows Defender & security model
 
-### Networking
+## Networking
 
 - Winsock API
 - TCP/IP stack
@@ -799,14 +797,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Named pipes over network
 - SMB protocol basics
 
-### Advanced Networking
+## Advanced Networking
 
 - Overlapped I/O
 - IOCP (I/O Completion Ports)
 - High-performance servers
 - Async networking
 
-### GUI & Windowing
+## GUI & Windowing
 
 - Win32 GUI subsystem
 - Message loop
@@ -814,7 +812,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - GDI
 - DirectX basics
 
-### Registry Internals
+## Registry Internals
 
 - Registry structure
 - Hives
@@ -822,14 +820,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Registry APIs
 - Persistence mechanisms
 
-### Containers & Virtualization
+## Containers & Virtualization
 
 - Hyper-V
 - Windows containers
 - Job objects
 - Sandbox environments
 
-### Debugging & Reverse Engineering
+## Debugging & Reverse Engineering
 
 - WinDbg
 
@@ -847,7 +845,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Practical Reverse Engineering
 
-### Performance & Observability
+## Performance & Observability
 
 - ETW (Event Tracing for Windows)
 - Performance Monitor
@@ -855,14 +853,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Profiling CPU/memory
 - Bottleneck analysis
 
-### Advanced I/O
+## Advanced I/O
 
 - Overlapped I/O
 - Async file operations
 - IOCP internals
 - Completion routines
 
-### Kernel Development
+## Kernel Development
 
 - Writing kernel drivers
 - Debugging kernel (KD)
@@ -870,7 +868,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - PatchGuard basics
 - Kernel exploitation surface
 
-### Exploitation & Internals (Opcional)
+## Exploitation & Internals (Opcional)
 
 - Heap internals
 - Use-after-free
@@ -878,7 +876,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - DLL injection
 - Process hollowing
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Write a Win32 application (no frameworks)
 - Build a custom PE loader
@@ -888,9 +886,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Analyze Windows internals with WinDbg
 - Reverse engineer a binary
 
-## Programming Roadmap (Generalist + Systems Bias)
+# Programming Roadmap (Generalist + Systems Bias)
 
-### Foundations
+## Foundations
 
 - How computers execute programs
 
@@ -906,7 +904,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Code: The Hidden Language of Computer Hardware and Software
 
-### Assembly (x86 / x64 / ARM)
+## Assembly (x86 / x64 / ARM)
 
 - Registers and instruction sets
 
@@ -924,35 +922,32 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: PC Assembly Language
 
-### C Programming
+## C Programming
 
 - Memory management (malloc/free)
-
 - Pointers and pointer arithmetic
-
 - Structs and unions
-
 - Undefined behavior
-
 - Function Pointers
-
 - Recursive Programming
-
 - Socket
-
 - Glibc specific APIs
-
 - Low-level I/O
-
 - Interfacing with OS
-
 - Meta-programming
-
 - Bit-fields
-
 - Bitmasks
 
-- [[Programming/C/Concurrency and Parallelism/index|Parallelism]]
+### Date & Time
+
+- [[timespec - A Timestamp Nanosecond-Precise Specification for C|C11 timespec API]]
+- [[POSIX Clocks - A Clock and Timing API|POSIX Clocks API]]
+
+### Parallelism
+
+- [[thrd_t - A simple parallel threading API|C11 `thrd_t` API]]
+
+- [[mtx_t - A simple C mutex API|C11 `mtx_t` API]]
 
 - Concurrency
 
@@ -960,7 +955,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Modern C
 
-### C++ Programming
+## C++ Programming
 
 - RAII
 
@@ -978,7 +973,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: C++ Primer
 
-### Compiler Internals
+## Compiler Internals
 
 - Lexical analysis
 
@@ -996,7 +991,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Engineering a Compiler
 
-### Assembler Internals
+## Assembler Internals
 
 - Instruction encoding
 - Symbol resolution
@@ -1004,7 +999,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Macro processing
 - Object file generation
 
-### Linker Internals
+## Linker Internals
 
 - Static vs dynamic linking
 
@@ -1018,7 +1013,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Linkers and Loaders (John Levine)
 
-### Debugging
+## Debugging
 
 - GDB / LLDB
 - WinDbg basics
@@ -1027,7 +1022,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Memory debugging
 - Reverse debugging
 
-### Rust
+## Rust
 
 - Ownership and borrowing
 
@@ -1041,7 +1036,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: The Rust Programming Language
 
-### Go
+## Go
 
 - Goroutines
 
@@ -1055,7 +1050,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: The Go Programming Language
 
-### Python
+## Python
 
 - Scripting and automation
 
@@ -1069,21 +1064,21 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Fluent Python
 
-### Zig
+## Zig
 
 - Manual memory management
 - Compile-time execution
 - Interoperability with C
 - Build system
 
-### Nim
+## Nim
 
 - Metaprogramming
 - Macros
 - Performance characteristics
 - C interop
 
-### Shell (sh/bash)
+## Shell (sh/bash)
 
 - Process orchestration
 - Pipes and redirection
@@ -1091,7 +1086,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Automation scripts
 - CLI tooling
 
-### Data Structures
+## Data Structures
 
 - Arrays, linked lists
 
@@ -1107,7 +1102,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - Book: Introduction to Algorithms (CLRS)
 
-### Algorithms
+## Algorithms
 
 - Sorting algorithms
 - Searching algorithms
@@ -1118,7 +1113,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Hash Algorithms
 - Complexity analysis (Big-O)
 
-### Testing
+## Testing
 
 - Unit testing
 - Integration testing
@@ -1126,13 +1121,13 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Fuzzing
 - Test coverage
 
-### Linting & Static Analysis
+## Linting & Static Analysis
 
 - Linters (clang-tidy, eslint, flake8)
 - Static analyzers
 - Code formatting (prettier, clang-format)
 
-### Good Practices
+## Good Practices
 
 - Clean code principles
 - Code reviews
@@ -1140,7 +1135,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Documentation
 - Error handling strategies
 
-### Web Fundamentals
+## Web Fundamentals
 
 - HTTP/HTTPS
 - REST APIs
@@ -1148,14 +1143,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Authentication (JWT, OAuth)
 - Web security basics
 
-### HTML & CSS
+## HTML & CSS
 
 - Semantic HTML
 - CSS layouts (flexbox, grid)
 - Responsive design
 - Accessibility
 
-### JavaScript / TypeScript
+## JavaScript / TypeScript
 
 - JS runtime (event loop)
 - TypeScript typing system
@@ -1163,7 +1158,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Module systems
 - Build tools (webpack, vite)
 
-### Web Development
+## Web Development
 
 - Frontend vs backend
 - SSR vs SPA
@@ -1171,7 +1166,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Databases (SQL/NoSQL)
 - Caching (Redis)
 
-### Web Frameworks
+## Web Frameworks
 
 - React
 - Vue
@@ -1190,7 +1185,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Zap
 - http.zig
 
-### GUI Development
+## GUI Development
 
 - Qt
 
@@ -1216,7 +1211,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 
 - GTK bindings
 
-### Mobile Development
+## Mobile Development
 
 - Android (Kotlin/Java)
 - iOS (Swift)
@@ -1224,7 +1219,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Mobile architecture patterns
 - Performance considerations
 
-### Systems Design Basics
+## Systems Design Basics
 
 - Scalability
 - Load balancing
@@ -1232,7 +1227,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Databases
 - Message queues
 
-### Advanced Topics
+## Advanced Topics
 
 - Concurrency patterns
 - Parallel programming
@@ -1240,7 +1235,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Networking programming
 - Security basics
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Build a compiler
 - Write a linker (toy)
@@ -1250,28 +1245,28 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Write a networking server
 - Contribute to open source
 
-## Networking
+# Networking
 
-### Network types
+## Network types
 
 - LAN
 - WAN
 - PAN
 - MAN
 
-### Network models
+## Network models
 
 - Client-Server
 - Peer-to-Peer
 
-### Network topology
+## Network topology
 
 - Bus
 - Star
 - Ring
 - Mesh
 
-### Networking devices
+## Networking devices
 
 - Router
 - Switch
@@ -1279,18 +1274,18 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Access Point
 - Firewall
 
-### OSI Model
+## OSI Model
 
 - Layers overview
 - Encapsulation
 - Decapsulation
 
-### TCP/IP Model
+## TCP/IP Model
 
 - Layers comparison with OSI
 - Practical mapping
 
-### IP Addressing
+## IP Addressing
 
 - What is IP
 - IPv4 vs IPv6
@@ -1299,102 +1294,102 @@ modified: 2026-10-22T16:40:56.697-03:00
 - CIDR
 - VLSM
 
-### MAC Addressing
+## MAC Addressing
 
 - What is MAC
 - MAC vs IP
 - ARP
 
-### Routing Fundamentals
+## Routing Fundamentals
 
 - Static routing
 - Dynamic routing
 - Default gateway
 
-### Routing protocols
+## Routing protocols
 
 - RIP
 - OSPF
 - EIGRP
 - BGP
 
-### Switching
+## Switching
 
 - VLANs
 - STP
 - Link Aggregation
 
-### DNS
+## DNS
 
 - Resolution process
 - DNS hierarchy
 - Common servers
 
-### DHCP
+## DHCP
 
 - DHCP process (DORA)
 - Lease time
 - IP pools
 
-### Firewalls and NAT
+## Firewalls and NAT
 
 - Firewall types
 - NAT
 - Port forwarding
 
-### Security fundamentals
+## Security fundamentals
 
 - Basic cryptography
 - IDS / IPS
 - Zero Trust
 
-### Wi-Fi
+## Wi-Fi
 
 - 802.11 standards (a/b/g/n/ac/ax)
 
-### Wireless security
+## Wireless security
 
 - WPA
 - WPA2
 - WPA3
 
-### Infrastructure
+## Infrastructure
 
 - Access Points
 - Controllers
 
-### Advanced subnetting
+## Advanced subnetting
 
 - Supernetting
 - Large network design
 
-### Advanced routing
+## Advanced routing
 
 - BGP deep dive
 - MPLS
 
-### VPNs
+## VPNs
 
 - SSL VPN
 - IPSec
 - Site-to-Site
 - Remote Access
 
-### QoS
+## QoS
 
 - Traffic shaping
 - Packet prioritization
 
-### Layer 2 Protocols: Data-link protocols
+## Layer 2 Protocols: Data-link protocols
 
 - DSL
 
-### Layer 3 Protocols: Core
+## Layer 3 Protocols: Core
 
 - IPv4
 - IPv6
 
-### Layer 3 Protocols: Control and routing
+## Layer 3 Protocols: Control and routing
 
 - ICMP
 - ICMPv6
@@ -1404,7 +1399,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - RIP
 - BGP
 
-### Layer 3 Protocols: Tunneling and infra
+## Layer 3 Protocols: Tunneling and infra
 
 - GRE
 - VRRP
@@ -1413,62 +1408,62 @@ modified: 2026-10-22T16:40:56.697-03:00
 - MLD
 - IPSec
 
-### Layer 4 Protocols: Transport
+## Layer 4 Protocols: Transport
 
 - TCP
 - UDP
 - QUIC
 - SCTP
 
-### Layer 6 Protocols: Encryption
+## Layer 6 Protocols: Encryption
 
 - SSL
 - TLS
 - DTLS
 
-### Layer 7 Protocols: Core services
+## Layer 7 Protocols: Core services
 
 - DHCP
 - DNS
 
-### Layer 7 Protocols: Remote access
+## Layer 7 Protocols: Remote access
 
 - Telnet
 - SSH
 - RDP
 
-### Layer 7 Protocols: File transfer
+## Layer 7 Protocols: File transfer
 
 - FTP
 - SFTP
 
-### Layer 7 Protocols: Web
+## Layer 7 Protocols: Web
 
 - HTTP
 - HTTPS
 - WebSocket
 - WSS
 
-### Layer 7 Protocols: Authentication
+## Layer 7 Protocols: Authentication
 
 - Kerberos
 - LDAP
 - LDAPS
 - RADIUS
 
-### Layer 7 Protocols: Email
+## Layer 7 Protocols: Email
 
 - SMTP
 - POP3
 - IMAP
 
-### Layer 7 Protocols: Monitoring & misc
+## Layer 7 Protocols: Monitoring & misc
 
 - SNMP
 - NTP
 - SNTP
 
-### Layer 7 Protocols: Messaging / others
+## Layer 7 Protocols: Messaging / others
 
 - XMPP
 - MQTT
@@ -1478,16 +1473,16 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Tox
 - MCP
 
-### Traffic Analysis
+## Traffic Analysis
 
 - Wireshark
 - Packet analysis
 - Protocol inspection
 - Traffic debugging
 
-## Web Pentesting
+# Web Pentesting
 
-### Foundations
+## Foundations
 
 - What is web penetration testing
 - Ethical hacking principles (scope, rules of engagement)
@@ -1495,7 +1490,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Pentesting methodologies (PTES, OWASP testing guide)
 - Reporting and risk classification
 
-### HTTP/HTTPS Deep Dive
+## HTTP/HTTPS Deep Dive
 
 - HTTP request/response structure (methods, headers, status codes)
 - HTTPS handshake, certificate validation, cipher suites
@@ -1503,7 +1498,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Web proxies (Burp Suite, ZAP, mitmproxy)
 - Cookie flags (Secure, HttpOnly, SameSite)
 
-### OWASP Top 10 (Latest)
+## OWASP Top 10 (Latest)
 
 - Broken Access Control (IDOR, privilege escalation)
 - Cryptographic failures (weak hashes, no encryption)
@@ -1516,7 +1511,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Security Logging and Monitoring Failures (insufficient audit trails)
 - Server-Side Request Forgery (SSRF)
 
-### Reconnaissance & Information Gathering
+## Reconnaissance & Information Gathering
 
 - Passive recon (Google dorks, Shodan, Censys, Wappalyzer)
 - Active recon (DNS enumeration, subdomain discovery, port scanning)
@@ -1524,7 +1519,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Technology stack fingerprinting
 - Source code disclosure (git, svn, backup files)
 
-### Injection Attacks (Hands-on)
+## Injection Attacks (Hands-on)
 
 - SQL injection (error-based, blind, union, out-of-band)
 - NoSQL injection (MongoDB operators)
@@ -1533,7 +1528,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Template injection (SSTI)
 - XPath injection
 
-### Cross-Site Scripting (XSS)
+## Cross-Site Scripting (XSS)
 
 - Reflected XSS
 - Stored XSS
@@ -1542,14 +1537,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - XSS to session hijacking
 - BeEF framework
 
-### Cross-Site Request Forgery (CSRF)
+## Cross-Site Request Forgery (CSRF)
 
 - CSRF tokens and bypasses
 - SameSite cookie attribute
 - Double submit cookie pattern
 - Login CSRF
 
-### Server-Side Vulnerabilities
+## Server-Side Vulnerabilities
 
 - SSRF (internal network scanning, cloud metadata endpoints)
 - XXE (XML external entities)
@@ -1558,7 +1553,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Path traversal (dot-dot-slash bypasses)
 - HTTP request smuggling
 
-### Authentication & Session Management
+## Authentication & Session Management
 
 - Weak password policies
 - Credential stuffing / brute force (rate limit bypass)
@@ -1567,14 +1562,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Session fixation
 - Insecure password reset flows
 
-### Authorization Flaws
+## Authorization Flaws
 
 - IDOR (insecure direct object references)
 - Privilege escalation (horizontal / vertical)
 - Forced browsing
 - Parameter manipulation
 
-### Business Logic Flaws
+## Business Logic Flaws
 
 - Workflow bypasses
 - Input validation edge cases
@@ -1582,7 +1577,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - CAPTCHA bypass
 - Functionality abuse (discount code abuse, gift card draining)
 
-### API Security
+## API Security
 
 - REST API vulnerabilities (mass assignment, improper swagger exposure)
 - GraphQL introspection & injections
@@ -1590,7 +1585,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - API key exposure
 - JWT in APIs
 
-### Client-Side Security
+## Client-Side Security
 
 - CSP (Content Security Policy) evaluation and bypass
 - CORS misconfigurations
@@ -1598,7 +1593,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Clickjacking (X-Frame-Options bypass)
 - WebSockets security (origin validation, message tampering)
 
-### Content Security & Backend
+## Content Security & Backend
 
 - Host header injection
 - Cache poisoning (response injection, cache keys)
@@ -1606,7 +1601,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - HTTP header injection (CRLF)
 - Denial of service (regex DoS, algorithmic complexity)
 
-### Infrastructure & Deployment
+## Infrastructure & Deployment
 
 - Misconfigured S3 buckets / cloud storage
 - Kubernetes / Docker misconfigurations (exposed ports, privileged containers)
@@ -1614,13 +1609,13 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Subdomain takeover
 - CDN misconfigurations
 
-### Mobile Web & Hybrid
+## Mobile Web & Hybrid
 
 - WebViews (local file access, JS bridges)
 - Deep link attacks
 - Cordova / Electron security
 
-### Tools Ecosystem
+## Tools Ecosystem
 
 - Burp Suite Professional (intruder, repeater, scanner, extender)
 - OWASP ZAP
@@ -1632,7 +1627,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Metasploit (web modules)
 - Postman (API testing)
 
-### Bypass Techniques & WAF Evasion
+## Bypass Techniques & WAF Evasion
 
 - Case manipulation
 - Encoding (double, unicode, hex)
@@ -1641,7 +1636,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - HTTP parameter pollution
 - IP rotation / X-Forwarded-For spoofing
 
-### Reporting & Post-Exploitation
+## Reporting & Post-Exploitation
 
 - Risk rating (CVSS 3.1 calculator)
 - Writing a professional pentest report
@@ -1649,7 +1644,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Remediation advice
 - Retesting workflow
 
-### Advanced Topics
+## Advanced Topics
 
 - Advanced SSRF (blind, protocol smuggling)
 - Advanced deserialization (gadget chains, ysoserial)
@@ -1658,7 +1653,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - From SSRF to RCE (cloud metadata)
 - Breaking modern frameworks (Next.js, Django, Rails)
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Set up a local lab (DVWA, Juice Shop, PortSwigger labs)
 - Practice on HackTheBox / TryHackMe (web categories)
@@ -1667,9 +1662,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Pentest a real bug bounty target (with permission)
 - Participate in responsible disclosure
 
-## Infra & Cloud Hacking
+# Infra & Cloud Hacking
 
-### Foundations
+## Foundations
 
 - What is infrastructure hacking (servers, networks, virtualization, containers)
 - Cloud security models (shared responsibility: IaaS, PaaS, SaaS)
@@ -1677,7 +1672,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Cloud penetration testing vs traditional pentesting (scope limitations, permission models)
 - Threat modeling for cloud environments (STRIDE, PASTA, OWASP Cloud Matrix)
 
-### Network Infrastructure Hacking
+## Network Infrastructure Hacking
 
 - Switch attacks (VLAN hopping, STP manipulation, MAC flooding)
 - Router attacks (OSPF/BGP hijacking, route leaks, SNMP abuse)
@@ -1687,7 +1682,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - NTP amplification attacks
 - Firewall evasion techniques (fragmentation, tunneling)
 
-### Server Hardening & Privilege Escalation (Linux)
+## Server Hardening & Privilege Escalation (Linux)
 
 - Kernel exploits (Dirty Pipe, Dirty COW)
 - Sudo/doas misconfigurations (CVE-2021-3156, CVE-2019-14287)
@@ -1699,7 +1694,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Readable /etc/shadow, /etc/passwd, backup files
 - Kernel module loading
 
-### Server Privilege Escalation (Windows)
+## Server Privilege Escalation (Windows)
 
 - AlwaysInstallElevated MSI
 - Unquoted service path
@@ -1711,7 +1706,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SAM / LSASS dumping (mimikatz, procdump)
 - GPO misconfigurations
 
-### Infrastructure Scanning & Enumeration
+## Infrastructure Scanning & Enumeration
 
 - Network sweep (nmap, masscan, zmap)
 - Service enumeration (Netcat, telnet, banner grabbing)
@@ -1723,7 +1718,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Database enumeration (MySQL, PostgreSQL, MSSQL, MongoDB)
 - Legacy protocols (FTP, TFTP, RSH, Rexec)
 
-### Infrastructure Lateral Movement
+## Infrastructure Lateral Movement
 
 - Pass the hash / Pass the ticket (Mimikatz, Impacket)
 - Overpass-the-hash (SMB/RPC)
@@ -1733,7 +1728,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - RDP hops (restricted admin mode)
 - SSH agent forwarding hijacking
 
-### Infrastructure Persistence
+## Infrastructure Persistence
 
 - Cron jobs / systemd timers
 - SSH authorized\_keys / ~/.ssh/rc
@@ -1744,7 +1739,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - COM hijacking
 - Golden / Silver ticket (Kerberos)
 
-### Logging & Detection Evasion
+## Logging & Detection Evasion
 
 - Clearing logs (rm /var/log/auth.log, wevtutil)
 - Log tampering (sed, timestomp)
@@ -1754,7 +1749,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Rootkits (userland vs kernel)
 - Hiding processes (libprocesshider, LD\_PRELOAD)
 
-### Container Breakout (Docker)
+## Container Breakout (Docker)
 
 - Docker socket exposure (/var/run/docker.sock)
 - Privileged container (--privileged, --cap-add=ALL)
@@ -1765,7 +1760,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Exposed /dev (device node access)
 - Kernel namespace escape via unshare
 
-### Kubernetes (K8s) Hacking
+## Kubernetes (K8s) Hacking
 
 - K8s architecture (API server, etcd, kubelet, controller manager)
 - RBAC misconfigurations (cluster-admin binding, overly permissive roles)
@@ -1779,7 +1774,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - MITRE ATT\&CK for Containers
 - Tools: kube-hunter, kube-bench, Peirates, Kubescape
 
-### Orchestration & CI/CD Pipeline Attacks
+## Orchestration & CI/CD Pipeline Attacks
 
 - Jenkins (script console, credential leaks, job configuration)
 - GitLab CI (pipeline execution, runner hijacking, protected branch bypass)
@@ -1788,7 +1783,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - ArgoCD (RBAC bypass, sync policy abuse)
 - Terraform state leakage (plain secrets in state files)
 
-### Cloud Foundations (Multi-Cloud)
+## Cloud Foundations (Multi-Cloud)
 
 - Cloud identity & access management (IAM) core concepts
 - Cloud resource hierarchy (AWS Organizations, Azure Management Groups, GCP Resource Manager)
@@ -1799,7 +1794,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Secrets management (AWS Secrets Manager, Azure Key Vault, GCP Secret Manager)
 - Cloud logging (CloudTrail, Monitor, Operations Suite)
 
-### AWS Hacking
+## AWS Hacking
 
 - IAM privilege escalation (sts:AssumeRole\*, iam:CreatePolicyVersion, iam:PassRole)
 - EC2 attack surface (user-data scripts, instance metadata service IMDSv1 vs v2, SSM agent)
@@ -1811,7 +1806,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - AWS Organizations (SCP bypass, delegated admin abuse)
 - Tools: Pacu, ScoutSuite, cloudsplaining, enumerate-iam
 
-### Azure Hacking
+## Azure Hacking
 
 - Entra ID (formerly Azure AD) (OAuth app consent grant, privileged role assignment)
 - Key Vault extraction (access policies, RBAC, soft-delete)
@@ -1822,7 +1817,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Logic Apps (workflow compromise, managed identity)
 - Tools: Stormspotter, ROADtools, MicroBurst, PowerZure
 
-### GCP Hacking
+## GCP Hacking
 
 - GCP IAM (primitive roles Owner/Editor/Viewer, service account impersonation)
 - Cloud Storage (uniform bucket-level access bypass, public ACLs)
@@ -1832,14 +1827,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Cloud Run (container break, overly permissive service accounts)
 - Tools: GCPBucketBrute, ScoutSuite GCP, gcp\_scanner, CloudSploit
 
-### Multi-Cloud & Hybrid
+## Multi-Cloud & Hybrid
 
 - Cross-cloud IAM federation risks (AWS-Entra ID trust, GCP-AWS workload identity)
 - Cloud-to-on-prem tunnels (VPN, Direct Connect, ExpressRoute)
 - Backup and DR compromise (cross-region replication, vault access)
 - Hybrid identity synchronization (Azure AD Connect, AWS Directory Service)
 
-### Serverless Hacking
+## Serverless Hacking
 
 - Event injection (API Gateway, SQS, Pub/Sub)
 - Dependency confusion (npm, PyPI, Maven)
@@ -1849,7 +1844,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Secrets in function code (hardcoded, environment variables)
 - Excessive permissions in function execution role
 
-### Cloud Metadata Service Attacks
+## Cloud Metadata Service Attacks
 
 - IMDSv1 vs IMDSv2 (PUT request requirement)
 - Accessing instance role credentials (http://169.254.169.254/latest/meta-data/iam/security-credentials/)
@@ -1859,7 +1854,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Azure metadata (managed identity token, subscription ID)
 - Tools: Metabrik, IMDS-poison
 
-### Cloud Storage & Databases Leakage
+## Cloud Storage & Databases Leakage
 
 - S3 bucket enumeration (pattern guessing, bucket list)
 - Azure Blob container anonymous listing
@@ -1870,7 +1865,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - DynamoDB (backup exposure, overly permissive policy)
 - Firebase realtime database (insecure rules)
 
-### Cloud Networking & Firewall Bypasses
+## Cloud Networking & Firewall Bypasses
 
 - VPC flow logs analysis (find exposed ports)
 - Security group egress bypass (metadata, DNS)
@@ -1879,7 +1874,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - AWS WAF bypass (SQLi/XSS evasion for cloud WAF)
 - Azure NSG lateral movement (intra-VNet)
 
-### Cloud Privilege Escalation
+## Cloud Privilege Escalation
 
 - AssumeRole chain (sts:AssumeRole with external ID)
 - IAM passrole with dangerous actions (ec2:RunInstance, lambda:CreateFunction)
@@ -1890,7 +1885,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Azure Privileged Identity Management (PIM) activation abuse
 - GCP folder/org policy bypass
 
-### Cloud Persistence
+## Cloud Persistence
 
 - Backdoor IAM user (created access keys)
 - Lambda function backdoor (event trigger, cron)
@@ -1900,7 +1895,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - GCP Custom role with excessive privileges
 - CloudTrail disabling / log deletion bypass
 
-### Cloud Detection Evasion
+## Cloud Detection Evasion
 
 - Disabling CloudTrail / Activity logs
 - Using trusted IP whitelist (from VPN, proxies)
@@ -1910,7 +1905,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - OAuth token reuse without refresh
 - VPC endpoint access (bypasses internet gateway logging)
 
-### Infrastructure & Cloud Tools
+## Infrastructure & Cloud Tools
 
 - **Scanners**: OpenVAS, Nessus, Qualys, Nuclei, Nikto
 - **Cloud enumerators**: AWS CLI, Az CLI, gcloud, Cloud Console
@@ -1919,7 +1914,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - **Metadata tools**: IMDS API, MetaDataMock (for labs)
 - **Red team frameworks**: Caldera, Metasploit (auxiliary modules for cloud)
 
-### Cloud Configuration Auditing (Defensive but essential)
+## Cloud Configuration Auditing (Defensive but essential)
 
 - CIS benchmarks for AWS/Azure/GCP
 - AWS Trusted Advisor, Security Hub, GuardDuty
@@ -1928,7 +1923,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Policy-as-code (checkov, tfsec, terrascan)
 - Infrastructure entitlement management (CIEM) tools
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Build a hacking lab: Docker containers, Kind cluster (local K8s), LocalStack (mock AWS)
 - Practice on public cloud (use free tier, destroy after use, stay within ToS)
@@ -1938,9 +1933,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Contribute to detection rules (Sigma, Nuclei, YARA) for cloud attacks
 - Write blog about a cloud misconfiguration find (responsible disclosure via bug bounty)
 
-## Post Exploitation
+# Post Exploitation
 
-### Post Exploitation Foundations
+## Post Exploitation Foundations
 
 - What is post-exploitation (after initial access)
 - Post-exploitation lifecycle (enumeration → privilege escalation → lateral movement → persistence → data extraction → cleanup)
@@ -1949,7 +1944,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Operational security (avoiding noise, mimicking legitimate traffic)
 - Frameworks: Metasploit (post modules), Cobalt Strike, Empire, Covenant, Caldera
 
-### Linux Privilege Escalation - Kernel Exploits
+## Linux Privilege Escalation - Kernel Exploits
 
 - Kernel version enumeration (uname -a, /proc/version)
 - Dirty Pipe (CVE-2022-0847), Dirty Cow (CVE-2016-5195)
@@ -1957,7 +1952,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - eBPF privilege escalation (CVE-2022-23222)
 - Linux Exploit Suggester (LES), linenum, linpeas
 
-### Linux Privilege Escalation - Sudo & RunC
+## Linux Privilege Escalation - Sudo & RunC
 
 - sudo -l, sudo -ll (list allowed commands)
 - CVE-2019-14287 (sudo ALL, run as any user except root → run as root with -u#-1)
@@ -1965,14 +1960,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - LD\_PRELOAD / LD\_LIBRARY\_PATH hijacking (env\_keep)
 - RunC container breakout (CVE-2019-5736)
 
-### Linux Privilege Escalation - SUID / SGID Binaries
+## Linux Privilege Escalation - SUID / SGID Binaries
 
 - Find SUID files (find / -perm -4000 2>/dev/null)
 - GTFOBins (gtfobins.github.io) – exploitable binaries (pkexec, cp, mv, nmap, vim)
 - Shared library injection (ldd / binary, writeable .so path)
 - Environment variable injection (PATH, IFS, wildcard injection)
 
-### Linux Privilege Escalation - Writable & Dangerous Files
+## Linux Privilege Escalation - Writable & Dangerous Files
 
 - /etc/passwd writable (add root user with known password)
 - /etc/sudoers writable (grant NOPASSWD)
@@ -1981,7 +1976,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SSH authorized\_keys (append public key)
 - .bashrc, .profile, .zshrc (persistence and escalation)
 
-### Linux Privilege Escalation - Capabilities
+## Linux Privilege Escalation - Capabilities
 
 - List capabilities (getcap -r / 2>/dev/null)
 - CAP\_SETUID + CAP\_SETGID (binary can change UID)
@@ -1989,7 +1984,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - CAP\_SYS\_ADMIN (mount, umount, namespace operations)
 - CAP\_NET\_ADMIN (configure interfaces, iptables)
 
-### Linux Privilege Escalation - Docker & Container Escapes
+## Linux Privilege Escalation - Docker & Container Escapes
 
 - Docker socket mounted (/var/run/docker.sock) → spawn privileged container
 - Privileged container (--privileged) → access host devices
@@ -1998,7 +1993,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - CVE-2019-5736 (runc) – overwrite host binary
 - Kernel namespaces – unshare + nsenter
 
-### Windows Privilege Escalation - Kernel / System Exploits
+## Windows Privilege Escalation - Kernel / System Exploits
 
 - Windows version / patch level (systeminfo, wmic qfe)
 - PrintNightmare (CVE-2021-1675, CVE-2021-34527)
@@ -2007,7 +2002,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - WinSock / HTTP.sys vulnerabilities
 - Tools: Windows Exploit Suggester, Watson, SharpUp, PowerUp
 
-### Windows Privilege Escalation - Service Misconfigurations
+## Windows Privilege Escalation - Service Misconfigurations
 
 - Unquoted service path (service has spaces, no quotes in path)
 - Weak service permissions (sc sdshow, accesschk – ability to modify service binary)
@@ -2015,21 +2010,21 @@ modified: 2026-10-22T16:40:56.697-03:00
 - AlwaysInstallElevated (MSI installer runs as SYSTEM)
 - Writeable services registry keys
 
-### Windows Privilege Escalation - Privileged Tokens & Impersonation
+## Windows Privilege Escalation - Privileged Tokens & Impersonation
 
 - SeImpersonatePrivilege, SeAssignPrimaryTokenPrivilege (Potato attacks – Rotten, Juicy, Sweet, PrintSpoofer, EfsPotato)
 - Named pipe impersonation (PrintSpooler, MSSQL)
 - Token manipulation (steal token, duplicate token – Incognito, Meterpreter)
 - Rotten Potato chain (COM server elevation)
 
-### Windows Privilege Escalation - Scheduled Tasks & Startup
+## Windows Privilege Escalation - Scheduled Tasks & Startup
 
 - Scheduled tasks with SYSTEM privileges (schtasks, Get-ScheduledTask)
 - Startup folder (All Users, Current User) – writeable location
 - WMI Event Subscription (active persistent backdoor, also escalates)
 - Logon scripts (GPO startup scripts, netlogon)
 
-### Windows Privilege Escalation - Windows Credential Harvesting
+## Windows Privilege Escalation - Windows Credential Harvesting
 
 - LSASS dump (procdump, mimikatz, comsvcs.dll)
 - SAM / SYSTEM / SECURITY hive extraction (reg save)
@@ -2038,7 +2033,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Kerberos tickets (klist, Mimikatz kerberos::golden)
 - NTDS.dit (domain controller)
 
-### Active Directory Privilege Escalation
+## Active Directory Privilege Escalation
 
 - Kerberoasting (service account crack)
 - AS-REP Roasting (no pre-auth accounts)
@@ -2050,7 +2045,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Golden / Silver tickets
 - Tools: BloodHound, PingCastle, SharpHound, PowerView
 
-### Privilege Escalation – Kubernetes (K8s)
+## Privilege Escalation – Kubernetes (K8s)
 
 - Privilege escalation via RBAC (cluster-admin binding, escalate verb)
 - HostPath mount escape (mount host root into pod)
@@ -2058,7 +2053,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Node compromise → all pods on that node
 - Kubelet API anonymous access → node proxy → API server
 
-### Privilege Escalation – AWS
+## Privilege Escalation – AWS
 
 - IAM privilege escalation (iam:CreatePolicyVersion, iam:PassRole, sts:AssumeRole)
 - EC2 user-data / SSM document execution
@@ -2066,7 +2061,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - S3 bucket policy takeover (write policy → grant access)
 - CloudFormation template injection
 
-### Privilege Escalation – Azure
+## Privilege Escalation – Azure
 
 - Azure AD privilege escalation (Global Admin, Privileged Role Admin)
 - Managed identity abuse (access token for other resources)
@@ -2074,20 +2069,20 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Logic Apps with system-assigned managed identity
 - Key Vault access policy modification
 
-### Privilege Escalation – GCP
+## Privilege Escalation – GCP
 
 - Primitive roles escalation (Editor → Owner by adding IAM)
 - Service account impersonation (create token)
 - Cloud Function invocation with high-privilege service account
 - GKE cluster admin via Kubernetes RBAC + workload identity
 
-### Privilege Escalation – Network Pivoting Fundamentals
+## Privilege Escalation – Network Pivoting Fundamentals
 
 - Pivoting vs Tunneling vs Proxying
 - Types: port forwarding, socks proxy, reverse tunnel, pivot over multiple hops
 - Network segmentation discovery (routes, ARP, netstat, listening ports)
 
-### SSH Tunneling
+## SSH Tunneling
 
 - Local port forwarding (ssh -L localport:target:remoteport)
 - Remote port forwarding (ssh -R remoteport:target:localport)
@@ -2096,7 +2091,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SSH reverse shell with port forwarding
 - SSH agent forwarding hijacking (SSH\_AUTH\_SOCK)
 
-### Socks Proxies & Chaining
+## Socks Proxies & Chaining
 
 - Metasploit (socks4a, socks5, reverse portfwd)
 - Chisel (http/socks5 reverse proxy, server/client)
@@ -2106,7 +2101,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Proxychains (any tool through socks chain)
 - Socks over RDP, Socks over SMB
 
-#### Port Forwarding & Redirection
+### Port Forwarding & Redirection
 
 - netcat (nc -lvp -e /bin/bash, nc relay)
 - socat (bidirectional relays: socat TCP-LISTEN:8080,fork TCP:target:80)
@@ -2115,7 +2110,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - iptables (DNAT, REDIRECT – Linux)
 - ngrok / bore (expose internal services via cloud tunnel)
 
-### VPN & Encapsulation
+## VPN & Encapsulation
 
 - WireGuard (stealthy point-to-point)
 - OpenVPN (layer2 bridging for same subnet)
@@ -2123,21 +2118,21 @@ modified: 2026-10-22T16:40:56.697-03:00
 - DNS tunneling (dnscat2, iodine, tcp-over-dns)
 - ICMP tunneling (icmptunnel, ptunnel)
 
-### HTTP/HTTPS Tunneling
+## HTTP/HTTPS Tunneling
 
 - HTTP CONNECT proxy (corkscrew, HTTPTunnel)
 - WebSocket tunneling (wsproxy)
 - Reverse HTTP tunnel (ngrok, serveo, bore, localtunnel)
 - C2 frameworks with http/s stagers (Cobalt Strike, Covenant)
 
-### Multi-hop & Cross-Segment Pivoting
+## Multi-hop & Cross-Segment Pivoting
 
 - Double pivot (compromised host A → pivot to B → pivot to C)
 - VLAN hopping (switch spoofing, double tagging)
 - Bridge hopping (through dual-homed host with interfaces in different subnets)
 - Cloud VPC peering pivot (from one cloud account to another via internal IP)
 
-### Windows-Specific Pivoting
+## Windows-Specific Pivoting
 
 - RDP port forwarding (mstsc /v, or using xfreerdp + drive redirection)
 - WMI port forwarding (wmic /node:target process call create)
@@ -2145,7 +2140,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SMB-based pivoting (CrackMapExec over socks)
 - PsExec over proxy (via proxychains)
 
-### Windows Lateral Movement Techniques
+## Windows Lateral Movement Techniques
 
 - PsExec (psexec.exe, Impacket psexec.py)
 - WMI (wmic, winrm, Invoke-WmiMethod)
@@ -2159,7 +2154,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Pass-the-Ticket (Mimikatz, Rubeus)
 - Overpass-the-Hash (convert hash to ticket)
 
-### Linux Lateral Movement
+## Linux Lateral Movement
 
 - SSH key theft (id\_rsa, authorized\_keys)
 - SSH agent forwarding hijacking
@@ -2171,7 +2166,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - NFS mount stealing (/etc/exports misconfig)
 - Ansible / Puppet / Salt master compromise (push commands)
 
-### Cloud Lateral Movement
+## Cloud Lateral Movement
 
 - AWS: EC2 instance role token theft → use AssumeRole to move across accounts
 - Azure: VM managed identity token → access Key Vault / Storage
@@ -2179,7 +2174,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Kubernetes: steal service account token → access other namespaces / API server
 - Cloud-to-on-prem via VPN or Direct Connect
 
-### Active Directory Lateral Movement
+## Active Directory Lateral Movement
 
 - Pass-the-Hash / Overpass-the-Hash / Pass-the-Ticket
 - SMB relay (NTLM relaying to other hosts – Responder, ntlmrelayx)
@@ -2190,7 +2185,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Golden Ticket (forge TGT for any user, including Domain Admin)
 - Silver Ticket (forge TGS for specific service)
 
-### Linux Persistence
+## Linux Persistence
 
 - Cron jobs (user and root crontab, anacron)
 - SSH authorized\_keys (backdoor key)
@@ -2204,7 +2199,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Web shells (for web servers)
 - C2 agents with auto-start (systemd timer, cron)
 
-### Windows Persistence
+## Windows Persistence
 
 - Registry Run keys (HKLM\Software\Microsoft\Windows\CurrentVersion\Run)
 - Scheduled tasks (schtasks /create, \$Trigger)
@@ -2220,14 +2215,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Browser extensions (Chrome, Edge)
 - NTLM hash dumping with persistence (LSASS patch)
 
-### Cloud Persistence
+## Cloud Persistence
 
 - AWS: IAM user + access keys, backdoor Lambda (scheduled trigger), CloudFormation stack (can be redeployed)
 - Azure: Entra ID app with delegated permissions, Automation Account runbook, Logic Apps
 - GCP: Custom role with owner permissions, service account key creation, Cloud Function backdoor
 - Kubernetes: DaemonSet (re-deploys pod on node), Admission webhook (mutating request), persistent service account token
 
-### Active Directory Persistence
+## Active Directory Persistence
 
 - Golden Ticket (krbtgt hash → forge TGT for any user, any time)
 - Silver Ticket (service account hash → forge TGS for specific service)
@@ -2237,7 +2232,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Group Policy Object (GPO – startup scripts, scheduled tasks)
 - SPN injection (add fake service principal name for relay)
 
-### Detection Evasion – General
+## Detection Evasion – General
 
 - Living off the land (LOLBins / LOLBAS / GTFOBins)
 - Renaming tools to legitimate binary names (e.g., mimikatz.exe → svchost.exe)
@@ -2252,7 +2247,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Obfuscated scripts (PowerShell – EncodedCommand, Base64, XOR)
 - Domain fronting (CDN to hide C2)
 
-### AV & EDR Bypass
+## AV & EDR Bypass
 
 - Userland hooks unhooking (ntdll restoration, syscall direct invocation)
 - AMSI bypass (patch AmsiScanBuffer, AmsiScanString, or use reflective load)
@@ -2264,7 +2259,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Sleep obfuscation (Ekko, FOLIAGE – hide during sleep)
 - Stack spoofing (call stack fake to bypass EDR hooks)
 
-### Network Evasion
+## Network Evasion
 
 - Encrypted C2 (HTTPS, DNS over HTTPS, DoH)
 - Traffic mimicking (HTTP/HTTPS looks like normal API calls)
@@ -2276,7 +2271,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Fragmented packets, small payloads
 - Malleable C2 profiles (Cobalt Strike, Covenant profiles)
 
-### Anti-Forensics – Disk & Memory
+## Anti-Forensics – Disk & Memory
 
 - Overwriting deleted files (shred, sdelete)
 - Encrypting C2 traffic and artifacts
@@ -2286,7 +2281,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Encrypting local data to avoid analysis
 - Memory scraping detection avoidance (delay, encrypt in-memory strings)
 
-### Persistence Evasion
+## Persistence Evasion
 
 - Hiding scheduled tasks (set security descriptor to hide from schtasks /query)
 - Registry run key hiding (subkeys with null characters)
@@ -2294,7 +2289,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Userland persistence without registry (WMI, COM handler)
 - DLL sideloading on trusted signed binaries
 
-### Data Discovery
+## Data Discovery
 
 - Sensitive file search (grep for secrets, find \*.key, \*.pem, \*.sql)
 - Database connection strings, config files
@@ -2305,7 +2300,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Memory scraping (lsass, browser processes)
 - DFS / network shares (net view, smbclient)
 
-### Exfiltration Techniques
+## Exfiltration Techniques
 
 - DNS exfiltration (dnscat2, base64 subdomains)
 - HTTP/HTTPS POST request (curl, Invoke-RestMethod)
@@ -2317,7 +2312,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - ICMP (icmpexfil – data in ICMP echo payload)
 - Fragmented exfiltration (split data, delayed transmission)
 
-### Exfiltration II: Data Compression & Encoding
+## Exfiltration II: Data Compression & Encoding
 
 - Archive (tar, zip, 7z) – optional password
 - Base64 / Base58 encoding
@@ -2326,7 +2321,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Splitting large datasets (split, rar multivolume)
 - Steganography (image metadata, least significant bits)
 
-#### Anti-Exfiltration Detection
+### Anti-Exfiltration Detection
 
 - Throttled transfer (limit bandwidth, long intervals)
 - Mimic legitimate protocols (HTTPS with standard headers)
@@ -2335,7 +2330,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Encrypted archives (avoid DLP regex triggers)
 - Passive exfiltration (wait, send only when user active)
 
-### Log & Artifact Removal
+## Log & Artifact Removal
 
 - Linux: clear /var/log/{auth,syslog,secure,lastlog,wtmp,btmp}
 - Linux: shred /var/log/\*; history -c; rm ~/.bash\_history
@@ -2344,7 +2339,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Remove shell history (PowerShell: Clear-History, Remove-Item (Get-PSReadlineOption).HistorySavePath)
 - Remove SSH known\_hosts (avoid connection tracking)
 
-### Tool & Payload Removal
+## Tool & Payload Removal
 
 - Delete uploaded tools (use encrypted temporary storage or in-memory execution)
 - Overwrite temporary files with random data (sdelete -z)
@@ -2352,7 +2347,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Restore registry keys to original state
 - Remove added firewall rules
 
-### OpSec Hardening
+## OpSec Hardening
 
 - Minimize logs (use anti-forensic techniques)
 - Use throwaway VPS / VPN for C2 termination
@@ -2362,7 +2357,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Timezone / language consistency in compromised hosts (avoid anomalies)
 - Username mimicking (use existing local accounts, not Administrator)
 
-### Post-Exploitation Tools
+## Post-Exploitation Tools
 
 - LinPEAS
 - LinEnum
@@ -2411,7 +2406,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - azcopy
 - gcssh
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Practice privilege escalation: TryHackMe (PrivEsc rooms), HackTheBox (Linux/Windows boxes)
 - Pivoting labs: PortSwigger (pivoting), VirtualBox internal network chaining
@@ -2422,9 +2417,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Write post-exploitation detection rules (Sigma, YARA, OSquery)
 - Contribute to open-source post-ex tools (PowerView, LinPEAS)
 
-## Binary Exploitation
+# Binary Exploitation
 
-### Foundations
+## Foundations
 
 - What is binary exploitation (memory corruption, control flow hijacking)
 - Von Neumann architecture (code and data together)
@@ -2437,7 +2432,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Debugging basics (GDB, radare2, IDA, Ghidra)
 - Toolchains: gdb-peda, gef, pwndbg, pwntools (Python)
 
-### Stack Overflows (Classic)
+## Stack Overflows (Classic)
 
 - Buffer overflow on stack (strcpy, gets, sprintf)
 - Overwriting return address (redirect to shellcode or function)
@@ -2449,7 +2444,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Shellcode basics (execve /bin/sh, msfvenom)
 - Egg hunters (small shellcode that searches for larger payload)
 
-### Stack Canaries & Bypasses
+## Stack Canaries & Bypasses
 
 - Stack cookies (\_\_stack\_chk\_fail, GS cookie on Windows)
 - Canary leak (format string, out-of-bounds read, infoleak)
@@ -2457,7 +2452,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SSP bypass (\_\_stack\_chk\_fail via overwriting libc GOT)
 - Terminator canaries (0x00, 0x0a, 0xff – bypass with no null bytes)
 
-### Return Oriented Programming (ROP)
+## Return Oriented Programming (ROP)
 
 - What is ROP (chain existing code snippets / gadgets)
 - Gadget discovery (ROPgadget, rp++, ropper)
@@ -2470,7 +2465,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - ROP chain generation (pwntools ROP class, Ropper chains)
 - Bypassing ASLR with ROP + info leak
 
-### Heap Exploitation (ptmalloc2)
+## Heap Exploitation (ptmalloc2)
 
 - Heap memory management (malloc, free, realloc)
 - Chunk structure (size, prev\_size, FD, BK)
@@ -2488,7 +2483,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - FSOP (File Stream Oriented Programming – hijack vtable of FILE\*)
 - Heap spraying (large allocation to predict address)
 
-### Integer & Arithmetic Vulnerabilities
+## Integer & Arithmetic Vulnerabilities
 
 - Integer overflow (wraparound, undefined behavior)
 - Signed vs unsigned mismatch (comparison bypass)
@@ -2497,7 +2492,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Size\_t / ssize\_t confusion (sign extension)
 - C++ integer conversion rank issues
 
-### Format String Exploitation
+## Format String Exploitation
 
 - printf, fprintf, sprintf, snprintf vulnerabilities
 - %x, %p (stack leak), %s (read arbitrary memory)
@@ -2507,7 +2502,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Partial overwrite (write only lower bytes)
 - pwntools FmtStr class, fmtstr\_payload
 
-### Type Confusion & Object Oriented Bugs
+## Type Confusion & Object Oriented Bugs
 
 - C++ vtable hijacking (virtual function table overwrite)
 - Downcast/upcast errors (type confusion between base/derived)
@@ -2515,7 +2510,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Python C extensions (PyObject header corruption)
 - JavaScript engines (JS type confusion → RCE)
 
-### Race Conditions
+## Race Conditions
 
 - Time-of-check time-of-use (TOCTOU)
 - File system races (symlink, rename, unlink)
@@ -2523,7 +2518,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - pthread race (shared data without lock)
 - Double fetch (kernel userspace same memory touched twice)
 
-### Advanced Memory Corruption
+## Advanced Memory Corruption
 
 - Uninitialized memory use (read uninitialized stack/heap)
 - Partial overwrites (only one or two bytes of return address)
@@ -2534,7 +2529,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Destructor hijacking (\_\_cxa\_finalize, \_\_do\_global\_dtors\_aux)
 - .dtors (deprecated) / .fini\_array / .init\_array overwrite
 
-### Linux Kernel Exploitation
+## Linux Kernel Exploitation
 
 - Kernel vs userland differences (ring 0 vs ring 3)
 - System call interface (syscall, ioctl)
@@ -2550,7 +2545,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - eBPF exploitation (CVE-2020-8835, verifier bypass)
 - Tools: qemu + kernel image, gdb with gdbstub, syzkaller (fuzzing)
 
-### Windows Kernel Exploitation
+## Windows Kernel Exploitation
 
 - Kernel drivers (IOCTL handlers, DeviceIoControl)
 - Win32k subsystem (GUI kernel bugs, user callbacks)
@@ -2564,7 +2559,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Driver signing enforcement bypass (Bring Your Own Vulnerable Driver)
 - Tools: WinDbg (kernel debugging), IDA, HyperDbg
 
-### Compile-time Defenses
+## Compile-time Defenses
 
 - Stack canary (ProPolice, StackGuard)
 - FORTIFY\_SOURCE (\_\_builtin\_object\_size, fortified libc)
@@ -2574,7 +2569,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SafeSEH (Windows structured exception handling)
 - SEHOP (SEH overwrite protection)
 
-### Kernel & OS Defenses
+## Kernel & OS Defenses
 
 - ASLR (Address Space Layout Randomization – kernel and libc)
 - PIE / PIC (Position Independent Executable – random binary base)
@@ -2586,7 +2581,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - KCFI (kernel control flow integrity)
 - CET (Intel Control-Flow Enforcement Technology – shadow stack, IBT)
 
-### Mitigation Bypasses
+## Mitigation Bypasses
 
 - ASLR bypass via infoleak (uninitialized memory, format string, side channel)
 - NX bypass via ROP / JOP (Return/Jump Oriented Programming)
@@ -2595,7 +2590,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - CFI bypass via forward-edge (call sites with indirect jump) or backward-edge (return address on shadow stack)
 - Shadow stack bypass (CET) via ret2pop or stack pivoting
 
-### Shellcode & Payload Delivery
+## Shellcode & Payload Delivery
 
 - Shellcode encoding (alphanumeric, uppercase, xor, base64)
 - Egghunters (small code searches bigger shellcode in memory)
@@ -2606,7 +2601,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Polymorphic shellcode to evade signatures
 - Shellcode testing harness (shellcode.c tester)
 
-### Fuzzing for Vulnerability Discovery
+## Fuzzing for Vulnerability Discovery
 
 - What is fuzzing (random + mutation + generation)
 - Fuzzing targets (command line, network services, libraries)
@@ -2619,7 +2614,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Kernel fuzzing (syzkaller, TriforceAFL)
 - OSS-Fuzz / ClusterFuzz (scale fuzzing)
 
-### Vulnerability Classes (Beyond Memory)
+## Vulnerability Classes (Beyond Memory)
 
 - Logic bugs (authentication bypass, validation flaws)
 - Race conditions (file system, threading)
@@ -2628,7 +2623,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Side channels (timing, cache, speculation – Spectre/Meltdown)
 - Deserialization bugs (unsafe object reconstruction)
 
-### Real-World Exploitation Cases
+## Real-World Exploitation Cases
 
 - Heartbleed (OpenSSL TLS heartbeat infoleak)
 - Shellshock (Bash environment variable code injection)
@@ -2639,7 +2634,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Log4Shell (JNDI deserialization injection)
 - Pwn2Own / CTF challenge write-ups
 
-### Disassemblers
+## Disassemblers
 
 - IDA Pro
 - Ghidra
@@ -2647,7 +2642,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - radare2
 - cutter
 
-### Debuggers
+## Debuggers
 
 - GDB
 - GEF
@@ -2657,44 +2652,44 @@ modified: 2026-10-22T16:40:56.697-03:00
 - x64dbg
 - lldb
 
-### Exploit Frameworks
+## Exploit Frameworks
 
 - pwntools
 - metasploit
 - ropchain
 
-### ROP tools
+## ROP tools
 
 - ROPgadget
 - Ropper
 - rp++
 
-### Heap introspection tools
+## Heap introspection tools
 
 - glibc malloc hooks
 - libheap
 - heap-viewer
 
-### Binary hardening checking tools
+## Binary hardening checking tools
 
 - checksec
 - HardeningCheck
 
-### Symbol resolution tools
+## Symbol resolution tools
 
 - objdump
 - nm
 - realdef
 - dumpbin
 
-### Living off the land tools
+## Living off the land tools
 
 - gdbserver
 - strace
 - ltrace
 - valgrind
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Solve CTF binary exploitation challenges (picoCTF, CTFtime, HTB pwn)
 - Write exploit for vulnerable VM (Protostar, Nebula, Fusion, VulnHub)
@@ -2706,9 +2701,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Contribute to pwntools, ROPgadget, or exploit-db
 - Write a detailed write-up for a CVE (like Dirty Pipe, PrintNightmare)
 
-## Game Hacking
+# Game Hacking
 
-### Foundations
+## Foundations
 
 - What is game hacking (modifying memory, code, or resources at runtime)
 - Legal and ethical considerations (single-player vs multiplayer, anti-cheat policies)
@@ -2717,7 +2712,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Memory vs code injection vs config modification
 - Required skills (C/C++, assembly, debugging, reverse engineering, mathematics)
 
-### Memory & Process Basics
+## Memory & Process Basics
 
 - Virtual memory and process isolation
 - Process memory regions (code, data, heap, stack, mapped files)
@@ -2726,7 +2721,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Finding static addresses vs dynamic addresses (pointers, offsets)
 - Pointer chains and multi-level pointers
 
-### Debugging & Reverse Engineering Tools
+## Debugging & Reverse Engineering Tools
 
 - Cheat Engine (memory scanner, dissector, debugger, code finder)
 - x64dbg / OllyDbg (runtime debugging, breakpoints, tracing)
@@ -2735,7 +2730,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Process Hacker / Process Monitor (process and handle inspection)
 - API monitor (trace game API calls, DirectX, OpenGL)
 
-### Memory Scanning Techniques
+## Memory Scanning Techniques
 
 - Exact value scan (int, float, double, byte array)
 - Unknown initial value scan (increased/decreased/unchanged)
@@ -2744,7 +2739,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Fuzzy scan (speedhack, jump height)
 - Dissecting data structures (finding object arrays, linked lists)
 
-### Pointer & Offset Hunting
+## Pointer & Offset Hunting
 
 - Static addresses (global variables, module base + offset)
 - Pointer scanning (Cheat Engine pointer scan)
@@ -2753,7 +2748,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Finding offsets via pattern scanning (signature scanning)
 - Using ReClass to reconstruct classes/structs
 
-### Assembly & Bytecode Patching
+## Assembly & Bytecode Patching
 
 - x86/x64 instruction modifications (NOP, JMP, CALL)
 - Writing code caves (allocate executable memory, write shellcode)
@@ -2762,7 +2757,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - MinHook, mhook, Detours library
 - Patching game binaries (CFF Explorer, LordPE, HxD)
 
-### Code Injection
+## Code Injection
 
 - DLL injection methods (LoadLibrary, manual mapping, reflective DLL)
 - Shellcode injection (allocate + write + create remote thread)
@@ -2771,7 +2766,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Windows hook injection (SetWindowsHookEx)
 - VEH / SEH injection (exception handlers)
 
-### Internal vs External Hacking
+## Internal vs External Hacking
 
 - External hack (separate process, uses Read/WriteProcessMemory)
   - Pros: stable, easier to code, undetected via kernel drivers
@@ -2781,7 +2776,7 @@ modified: 2026-10-22T16:40:56.697-03:00
   - Cons: easier to detect, crashes more often
 - Hybrid approaches (kernel driver + usermode client)
 
-### Aimbot
+## Aimbot
 
 - Player coordinates extraction (player list, entity positions)
 - Camera view matrix (world to screen projection)
@@ -2793,7 +2788,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Silent aim (modify angles without camera movement)
 - Bone aiming (head, neck, chest, spine via bone structures)
 
-### Wallhack / ESP (Extra Sensory Perception)
+## Wallhack / ESP (Extra Sensory Perception)
 
 - Entity list enumeration (players, items, objects)
 - 2D/3D box ESP (bounding boxes)
@@ -2804,7 +2799,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Radar hack (overlay map with enemies)
 - Triggerbot (auto-shoot when crosshair over enemy)
 
-### Speedhack / Teleport / Fly
+## Speedhack / Teleport / Fly
 
 - Speedhack (write to speed value or hook tick rate)
 - Teleport (write to position coordinates with validation bypass)
@@ -2812,7 +2807,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - No-clip (disable collision detection for player)
 - Super jump (modify jump impulse or Z velocity)
 
-### God Mode / Infinite Ammo / No Reload
+## God Mode / Infinite Ammo / No Reload
 
 - Health freeze / health write loop
 - Damage handler patching (NOP out take damage call)
@@ -2821,7 +2816,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Infinite stamina / mana / energy
 - One hit kill (patch damage multiplier)
 
-### Item Duplication / Economy Hacks
+## Item Duplication / Economy Hacks
 
 - Quantity overwrite (stackable items)
 - Vendor price manipulation (buy low, sell high)
@@ -2830,7 +2825,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Currency freeze (gold, gems, points)
 - Crafting bypass (don't consume materials)
 
-### Anti-Cheat Bypass (Basic)
+## Anti-Cheat Bypass (Basic)
 
 - User-mode anti-cheats (BattlEye, EasyAntiCheat, Xigncode3)
 - Signature scanning evasion (polymorphic code, junk insertion)
@@ -2840,7 +2835,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Thread hiding (remove from PEB, hide from debugger)
 - Obfuscation (string encryption, junk code, virtualized code)
 
-### Kernel-Mode Cheating (Advanced)
+## Kernel-Mode Cheating (Advanced)
 
 - Kernel driver development (Windows WDM, KMDF)
 - Physical memory read/write (\Device\PhysicalMemory, MmMapIoSpace)
@@ -2851,7 +2846,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Communication with usermode (shared memory, named pipe, IOCTL)
 - KDMapper (manual map unsigned driver)
 
-### Game Engine Specific – Unreal Engine (UE4/UE5)
+## Game Engine Specific – Unreal Engine (UE4/UE5)
 
 - UObject / UClass / UWorld / ULevel structure
 - GNames, GObjects arrays (find objects by name)
@@ -2861,7 +2856,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Camera manager and view projection
 - Bone transforms via USkeletalMeshComponent
 
-### Game Engine Specific – Unity (Mono/IL2CPP)
+## Game Engine Specific – Unity (Mono/IL2CPP)
 
 - Mono runtime internals (MonoDomain, MonoClass, MonoObject)
 - Mono injection (load Assembly-CSharp.dll in external app)
@@ -2871,7 +2866,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Modding with BepInEx / MelonLoader (managed plugins)
 - Asset editing (AssetStudio, UABE – texture, model, config)
 
-### Graphics & Overlay Hacks
+## Graphics & Overlay Hacks
 
 - DirectX hooks (EndScene, Present, DrawIndexedPrimitive)
 - OpenGL hooks (glBegin, glDrawArrays, wglSwapBuffers)
@@ -2880,7 +2875,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - ImGui integration (dear imgui for menus)
 - Sprite/Text drawing (print ESP text, crosshair)
 
-### Network & Packet Manipulation
+## Network & Packet Manipulation
 
 - Intercepting network traffic (Wireshark, WinPcap, Raw Socket)
 - Packet editing (modify values before game processes)
@@ -2889,7 +2884,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Position desync (predictive cheats)
 - Server vs client authority (when clients send position/health, hackable)
 
-### Multiplayer-Specific Hacks
+## Multiplayer-Specific Hacks
 
 - Client-side validation bypass (if possible)
 - Shared memory abusing (world state in memory)
@@ -2898,7 +2893,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Event spoofing (send fake game events to server)
 - Aim assistance on server-sanctioned games (mouse\_event, SendInput)
 
-### Cheat Development & Distribution
+## Cheat Development & Distribution
 
 - Console vs GUI cheat menus
 - Update resilience (pattern scanning for offsets after patches)
@@ -2907,7 +2902,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Obfuscation (Themida, VMProtect, Enigma Protector)
 - Reversing protection (anti-debug, anti-dump, anti-VM)
 
-### Advanced Memory Techniques
+## Advanced Memory Techniques
 
 - Data pattern scanning (signature scanning for offsets)
 - Disassembling game functions (find function start with pattern)
@@ -2917,7 +2912,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - IAT hook (replace imported function address)
 - Inline syscall for undetected RPM/WPM
 
-### Anti-Debug & Anti-Analysis Bypass
+## Anti-Debug & Anti-Analysis Bypass
 
 - IsDebuggerPresent, NtQueryInformationProcess, CheckRemoteDebuggerPresent
 - PEB BeingDebugged flag clearing
@@ -2928,7 +2923,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Hardware breakpoint detection (DR registers)
 - VM detection (hypervisor brand, timing, instruction set)
 
-### Game Hacking Tools & Libraries
+## Game Hacking Tools & Libraries
 
 - Cheat Engine (memory scanning, debugger)
 - ReClass.NET (structure reconstruction)
@@ -2941,7 +2936,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Process Hacker (process inspection)
 - API Monitor (trace game API calls)
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Hack a single-player game (e.g., Assault Cube – open source practice)
 - Build external hack (C++ + ReadProcessMemory + overlay)
@@ -2954,9 +2949,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Contribute to open-source game hack projects (GitHub)
 - Write a detailed analysis of anti-cheat bypass technique
 
-## Hardware Hacking
+# Hardware Hacking
 
-### Foundations
+## Foundations
 
 - What is hardware hacking (physical device manipulation, embedded systems, IoT)
 - Electronics basics (voltage, current, resistance, Ohm’s law, power)
@@ -2967,7 +2962,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Safety precautions (ESD, high voltage, capacitors discharge)
 - Ethics and legality (warranty voiding, reverse engineering laws, responsible disclosure)
 
-### Microcontrollers & Embedded Systems
+## Microcontrollers & Embedded Systems
 
 - Common microcontrollers (AVR, PIC, ARM Cortex-M, ESP8266/ESP32)
 - Architecture (CPU, RAM, flash, peripherals, GPIO)
@@ -2977,7 +2972,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Memory mapping (SRAM, EEPROM, external flash)
 - Debug interfaces (JTAG, SWD, ISP)
 
-### Reading Datasheets & Schematics
+## Reading Datasheets & Schematics
 
 - How to read a datasheet (pinout, electrical characteristics, timing diagrams)
 - Identifying components (resistors, capacitors, diodes, transistors, ICs)
@@ -2986,7 +2981,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Identifying test points, vias, exposed traces
 - Component markings (SMD codes, date codes, logos)
 
-### Hardware Reconnaissance & Enumeration
+## Hardware Reconnaissance & Enumeration
 
 - Visual inspection (chip markings, revision numbers, debug ports)
 - Multimeter measurements (voltage rails, continuity, resistance, diode mode)
@@ -2995,7 +2990,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Finding test points (via shape, labeling: TX, RX, TMS, TCK, SWDIO)
 - Searching for chip datasheets using markings
 
-### UART (Universal Asynchronous Receiver-Transmitter)
+## UART (Universal Asynchronous Receiver-Transmitter)
 
 - UART pin identification (TX, RX, GND, VCC – often 3.3V or 5V)
 - Baud rate detection (logic analyzer, trial and error 9600/115200)
@@ -3005,7 +3000,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Interrupting bootloader (u-boot, U-Boot modification)
 - UART redirection (hardware keylogger)
 
-### JTAG (Joint Test Action Group)
+## JTAG (Joint Test Action Group)
 
 - JTAG pins (TDI, TDO, TMS, TCK, TRST, SRST)
 - Boundary scan (testing IC connections, reading flash)
@@ -3015,7 +3010,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Security fuses bypass (if debug interface left enabled)
 - Abusing JTAG for firmware extraction and modification
 
-### SPI & I2C (Bus Protocols)
+## SPI & I2C (Bus Protocols)
 
 - SPI pins (MOSI, MISO, SCK, CS) – full duplex
 - I2C pins (SDA, SCL) – half duplex, addressing
@@ -3025,7 +3020,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Injecting data onto buses (Arduino as master)
 - SPI flash replacement or modification
 
-### Reading & Modifying Flash Memory
+## Reading & Modifying Flash Memory
 
 - Identifying flash chips (Winbond, Macronix, Micron, Spansion)
 - SOIC-8 / WSON-8 / BGA packages
@@ -3036,7 +3031,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Reflashing modified firmware (bootloader checks bypass)
 - Disabling write protect (WP# pin, status register)
 
-### Firmware Reverse Engineering
+## Firmware Reverse Engineering
 
 - Firmware extraction (binwalk, dd, unsquashfs, cramfs)
 - Identifying file systems (squashfs, jffs2, ubi, cpio)
@@ -3047,7 +3042,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Finding hardcoded keys, passwords, backdoors
 - Firmware emulation (QEMU, Unicorn, Firmadyne, FirmAE)
 
-### Side-Channel Attacks
+## Side-Channel Attacks
 
 - Power analysis (Simple Power Analysis – SPA, Differential – DPA)
 - Electromagnetic analysis (EM radiation, near-field probe)
@@ -3057,7 +3052,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Breaking bootloader security via glitch
 - Extracting cryptographic keys from device during operation
 
-### Glitching & Fault Injection
+## Glitching & Fault Injection
 
 - Voltage glitching (power supply dip during critical instruction)
 - Clock glitching (temporary overclock or missing clock edge)
@@ -3067,7 +3062,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Glitching with ChipWhisperer, PiFrost, or DIY transistor circuit
 - Countermeasures detection (redundant checks, fault detection loops)
 
-### EEPROM & Non-Volatile Memory Attacks
+## EEPROM & Non-Volatile Memory Attacks
 
 - Reading I2C/SPI EEPROMs (24LCxx, 25LCxx)
 - Reading parallel EEPROM (27xx, 28xx)
@@ -3076,7 +3071,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Copying/cloning devices via EEPROM readout
 - Resetting password counters or device locks
 
-### Bus Spearing & Probing
+## Bus Spearing & Probing
 
 - Probing hidden vias and test points
 - Flex PCB traces repair/reconnection
@@ -3085,7 +3080,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - JTAGulator auto-detecting JTAG pinouts
 - Logic analyzer setup (8-16 channels, sample rate >50MHz)
 
-### PCB Reverse Engineering
+## PCB Reverse Engineering
 
 - Physical PCB layer extraction (grinding, polishing, microscope)
 - Multimeter continuity tracing (freeware PCB drawing tools)
@@ -3094,7 +3089,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Signal grouping (address bus, data bus, control lines)
 - Decapping ICs (acid, laser) – advanced
 
-### Chip Decapsulation & Microscopy
+## Chip Decapsulation & Microscopy
 
 - Chemical decapsulation (fuming nitric acid, acetone)
 - Mechanical decapsulation (sanding, polishing)
@@ -3103,7 +3098,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Reverse engineering layout (power, ground, data lines)
 - Professional services (TechInsights, Chipworks)
 
-### Bypassing Hardware Security Modules (HSM)
+## Bypassing Hardware Security Modules (HSM)
 
 - Secure elements (ATECC508, Trusted Platform Module TPM 2.0)
 - Glitching security element during execution
@@ -3112,7 +3107,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Sniffing communication between host and secure element
 - Extracting keys via EM radiation
 
-### USB Hacking
+## USB Hacking
 
 - USB protocol basics (endpoints, control/interrupt/bulk transfers)
 - USB device enumeration, descriptors, strings
@@ -3122,7 +3117,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - USB fuzzing (syzkaller USB, USB-Fuzzer)
 - USB firmware modification (ChipWhisperer-Lite for USB)
 
-### RFID/NFC Hacking
+## RFID/NFC Hacking
 
 - Low frequency (125 kHz – EM4100, HID ProxCard)
 - High frequency (13.56 MHz – Mifare Classic, DESFire, iCLASS)
@@ -3133,7 +3128,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Reading/writing to tags, emulating tags
 - Breaking weak crypto (MiFare Classic CRYPTO1 cipher)
 
-### SDR (Software Defined Radio) for Hardware Hacking
+## SDR (Software Defined Radio) for Hardware Hacking
 
 - SDR basics (RTL-SDR, HackRF, LimeSDR, BladeRF)
 - Spectrum analysis (waterfall, FFT, identifying signals)
@@ -3144,7 +3139,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Using GNU Radio, Universal Radio Hacker (URH), rtl\_433
 - Decoding proprietary wireless sensors (weather stations, tire pressure)
 
-### Bluetooth Low Energy (BLE) Hacking
+## Bluetooth Low Energy (BLE) Hacking
 
 - BLE advertising, scanning, connection establishment
 - GATT services, characteristics, handles
@@ -3155,7 +3150,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - BLE MITM (GATT MITM with proxy devices)
 - Fuzzing BLE characteristic writes
 
-### Zigbee / Z-Wave / LoRa Hacking
+## Zigbee / Z-Wave / LoRa Hacking
 
 - Zigbee (IEEE 802.15.4) – Smart Home, IoT
 - Tools: KillerBee, TI CC2531, Atmel RZUSBstick
@@ -3165,7 +3160,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - LoRa packet sniffing (RTL-SDR + gr-lora, SX1276)
 - Replay, key extraction from LoRaWAN (known keys)
 
-### Hardware Backdoors & Malicious Implants
+## Hardware Backdoors & Malicious Implants
 
 - Hidden Bluetooth module (serial to Bluetooth)
 - Cellular backdoor modules (SMS controlled)
@@ -3176,7 +3171,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Supply chain attacks (malicious firmware pre-installed)
 - Counterfeit components (logic analyzers catch timing differences)
 
-### Hacking Automotive Hardware
+## Hacking Automotive Hardware
 
 - OBD-II port (CAN bus access, K-Line, SW-CAN)
 - CAN bus basics (CAN\_H, CAN\_L, differential signaling)
@@ -3187,7 +3182,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Airbag / ECU reprogramming via UDS (Unified Diagnostic Services)
 - Hacking head units (UART/JTAG access, Android root)
 
-### FPGA & CPLD Hacking
+## FPGA & CPLD Hacking
 
 - FPGA architecture (LUTs, flip-flops, block RAM, DSP slices)
 - Bitstream extraction (SPI flash, JTAG)
@@ -3196,7 +3191,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Side-channel analysis of FPGA implementation
 - Hardening: bitstream encryption, readback disable, fuse blowing
 
-### Hacking ROMs & Game Cartridges
+## Hacking ROMs & Game Cartridges
 
 - Dumping cartridge ROMs (parallel or SPI programmer)
 - Save game battery replacement (SRAM, FRAM)
@@ -3205,7 +3200,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Flash cartridges (EverDrive, carts with SD card)
 - Glitching console CPU for unsigned code execution
 
-### Cloning & Spoofing Hardware Tokens
+## Cloning & Spoofing Hardware Tokens
 
 - TOTP/HOTP tokens (cloning seed)
 - YubiKey side channel attacks (if debug left)
@@ -3214,7 +3209,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Cloning magnetic stripe cards (skimmers, MSR readers)
 - EMV chip cloning (difficult, requires private key)
 
-### Hardware Hacking Tools
+## Hardware Hacking Tools
 
 - Multimeter (Fluke, UNI-T, Aneng)
 - Oscilloscope (Rigol, Siglent, PicoScope, or cheap DSO)
@@ -3228,7 +3223,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - RFID: Proxmark3, ChameleonMini, Flipper Zero
 - Fault injection: ChipWhisperer, Glitcher, homebrew MOSFET switch
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Hack a consumer IoT device (smart plug, router, webcam)
 - Extract firmware via UART or SPI flash (e.g., TP-Link router)
@@ -3242,9 +3237,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Write a custom firmware for an ESP8266 device
 - Present findings at hardware hacking conference (Hardwear.io, DEFCON IoT village)
 
-## Malware Development (Multi-OS)
+# Malware Development (Multi-OS)
 
-### Foundations
+## Foundations
 
 - What is malware (viruses, worms, trojans, ransomware, rootkits, bootkits, spyware, RATs)
 - Malware lifecycle (delivery, execution, persistence, evasion, C2, impact)
@@ -3253,7 +3248,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Required skills (C, C++, assembly, reverse engineering, networking, OS internals)
 - Malware families & case studies (Stuxnet, Mirai, WannaCry, NotPetya, Pegasus)
 
-### Cross-Platform & Portable Techniques
+## Cross-Platform & Portable Techniques
 
 - Writing platform-agnostic code (conditional compilation, preprocessor macros)
 - Using high-level languages with runtimes (Python, Go, Rust, Nim – compile to target)
@@ -3264,7 +3259,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Shared library injection across OS (LD\_PRELOAD, DLL injection, DYLD\_INSERT\_LIBRARIES)
 - Encoding & encryption (portable libraries: libsodium, OpenSSL, custom XOR)
 
-### Windows Internals for Malware
+## Windows Internals for Malware
 
 - PE structure, sections, imports, exports, relocations
 - Process memory layout (PEB, TEB, heap, stack)
@@ -3273,7 +3268,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Native API (Nt\*/Zw\* functions) – direct syscall invocation
 - Kernel vs user mode, transition
 
-### Windows Payload Execution
+## Windows Payload Execution
 
 - Shellcode generation (msfvenom, custom assembly)
 - Process injection methods (CreateRemoteThread, SetThreadContext, QueueUserAPC)
@@ -3284,7 +3279,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Process Doppelgänging (transactional NTFS, replace image)
 - Process Herping (using undocumented NtCreateProcessEx)
 
-### Windows Persistence
+## Windows Persistence
 
 - Registry run keys (CurrentVersion\Run, RunOnce, Winlogon, AppInit\_DLLs)
 - Scheduled tasks (schtasks, Task Scheduler COM)
@@ -3297,7 +3292,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Winlogon notifications (GINA, credential providers)
 - Image file execution options (Debugger, SilentProcessExit)
 
-### Windows Evasion & Anti-Debug
+## Windows Evasion & Anti-Debug
 
 - IsDebuggerPresent, CheckRemoteDebuggerPresent, NtQueryInformationProcess
 - PEB BeingDebugged flag manipulation
@@ -3310,7 +3305,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Syscall direct (skip userland hooks, use Nt\* syscall numbers)
 - Obfuscation (string encryption, control flow flattening, garbage code, polymorphic)
 
-### Windows Rootkits (Kernel)
+## Windows Rootkits (Kernel)
 
 - Kernel driver development (WDK, KMDF)
 - Driver entry, IRP handling, device objects
@@ -3322,7 +3317,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Filter drivers (disk, network, file system mini-filter)
 - PatchGuard bypass (tricky, avoid hooks or use unhooking)
 
-### Linux Internals for Malware
+## Linux Internals for Malware
 
 - ELF format (headers, sections, program headers, dynamic linking)
 - Process memory layout (text, data, bss, mmap, stack, heap)
@@ -3331,7 +3326,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - LD\_PRELOAD / LD\_LIBRARY\_PATH hijacking
 - VDSO (kernel/system call fast path, potential hijack)
 
-### Linux Payload Execution
+## Linux Payload Execution
 
 - Shellcode generation (execve /bin/sh, reverse TCP, bind shell)
 - Process injection via ptrace (attach, write, continue)
@@ -3340,7 +3335,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Process replacement (execve with new binary)
 - GDB remote protocol abuse for injection
 
-### Linux Persistence
+## Linux Persistence
 
 - Cron jobs (@reboot, user crontab, system crontabs)
 - Systemd units (/etc/systemd/system/, ~/.config/systemd/user/)
@@ -3352,7 +3347,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - XDG autostart (.desktop files in ~/.config/autostart)
 - Kernel module auto-load via /etc/modules-load.d/
 
-### Linux Evasion & Anti-Analysis
+## Linux Evasion & Anti-Analysis
 
 - Checking for debugger (ptrace self-attach, /proc/self/status TracerPid)
 - Anti-VM (detect VirtualBox, VMware, KVM, QEMU via DMI, PCI, CPUID)
@@ -3363,7 +3358,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Obfuscated shellcode (XOR, AES, add/sub encoders)
 - Userland rootkits (via LD\_PRELOAD – hook libc functions like readdir, fopen)
 
-### Linux Rootkits (Kernel)
+## Linux Rootkits (Kernel)
 
 - LKM rootkits (insmod, module hiding via list\_del)
 - Syscall table hijacking (find syscall table address via kallsyms)
@@ -3374,7 +3369,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Anti-rootkit detection bypass (hide module from lsmod, /sys/module)
 - DKOM on task\_struct (hide process from pid list)
 
-### macOS Internals
+## macOS Internals
 
 - Mach-O binary format (headers, load commands, sections)
 - XNU kernel (hybrid Mach + BSD)
@@ -3383,7 +3378,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Dyld shared cache (prelinked libraries for performance)
 - Code signing and entitlements (hardened runtime, notarization)
 
-### macOS Payload Execution
+## macOS Payload Execution
 
 - Process injection via mach\_vm APIs (mach\_vm\_allocate, mach\_vm\_write)
 - Thread hijacking (thread\_create\_running, mach\_thread\_self)
@@ -3392,7 +3387,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - CVE-2015-??? (DYLD environment variable injection in older macOS)
 - launchd job submission (create launchd plist for execution)
 
-### macOS Persistence
+## macOS Persistence
 
 - LaunchDaemons & LaunchAgents (/Library/LaunchDaemons, ~/Library/LaunchAgents)
 - Login items (LSSharedFileList, SystemConfiguration)
@@ -3402,7 +3397,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - /etc/rc.common (deprecated)
 - EMOND (Event Monitor) plist injection
 
-### macOS Evasion & Anti-Analysis
+## macOS Evasion & Anti-Analysis
 
 - Anti-debug (ptrace PT\_DENY\_ATTACH – classic)
 - Check for task\_for\_pid (requires entitlements, may indicate debugger)
@@ -3411,7 +3406,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Bypass SIP (System Integrity Protection) – limited, but rootkit can disable kext loading
 - Obfuscation using Objective-C runtime (method swizzling for hook hiding)
 
-### macOS Rootkits
+## macOS Rootkits
 
 - Kernel extension (kext) – deprecated but still works with user approval (system extension → not rootkit)
 - System extension (NetworkExtension, EndpointSecurity) – for legitimate EDR, but can be abused
@@ -3419,7 +3414,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - sysctl hook for hiding processes (kern.sysctl handler)
 - Hiding via kernel info leaks (use setattrlist to hide files)
 
-### Android Internals
+## Android Internals
 
 - Linux kernel + Android runtime (Dalvik/ART)
 - APK structure (classes.dex, resources.arsc, AndroidManifest.xml)
@@ -3428,7 +3423,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SELinux policies (enforcing/modified by Google)
 - Android permissions model (manifest, runtime permissions)
 
-### Android Payload Execution
+## Android Payload Execution
 
 - Malicious APK with payload (Java/Kotlin + native .so)
 - Dynamic dex loading (DexClassLoader, PathClassLoader)
@@ -3437,7 +3432,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Reflective DEX loading (load DEX from byte array)
 - Rooting exploits (Magisk, KingoRoot) – escalate privileges
 
-### Android Persistence
+## Android Persistence
 
 - Boot receiver (RECEIVE\_BOOT\_COMPLETED)
 - Foreground service with persistent notification (less suspicious)
@@ -3447,7 +3442,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SharedPreferences re-apply on boot
 - Native library persistence (libs in /data/app/.../lib/ with so name)
 
-### Android Evasion & Anti-Analysis
+## Android Evasion & Anti-Analysis
 
 - Detecting rooted devices (check su binaries, Magisk, test-keys)
 - Emulator detection (build properties: ro.kernel.qemu, ro.product.device)
@@ -3457,7 +3452,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Anti-hook (check for Xposed, Frida, Substrate)
 - C2 over HTTPS with certificate pinning (avoid MitM)
 
-### Android Rootkits (Kernel & System)
+## Android Rootkits (Kernel & System)
 
 - Kernel module injection (requires root, load with insmod)
 - Syscall table hooking (on older kernels, newer restricts)
@@ -3466,7 +3461,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Hijacking system services (replace Binder service with malicious)
 - Zygote injection (pre-load code into every app process)
 
-### iOS Internals
+## iOS Internals
 
 - XNU kernel (as macOS but hardened)
 - Mach-O for iOS, FairPlay DRM, code signing mandatory
@@ -3474,7 +3469,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Rootless security (System volume snapshot, SSV)
 - APFS snapshots and sealed system volume
 
-### iOS Payload Execution (Jailbroken)
+## iOS Payload Execution (Jailbroken)
 
 - Dynamic library injection via DYLD\_INSERT\_LIBRARIES (requires jailbreak)
 - Substrate / Substitute tweak (Cydia Substrate for method swizzling)
@@ -3482,7 +3477,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Launch daemon (plist in /Library/LaunchDaemons)
 - Post-exploitation via kernel r/w (jailbreak exploit aftermath)
 
-### iOS Payload Execution (Non-Jailbroken)
+## iOS Payload Execution (Non-Jailbroken)
 
 - Developer-signed app with entitlements (limited, valid for 7 days)
 - Enterprise certificate abuse (side-loading, valid for year)
@@ -3490,14 +3485,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Kernel exploit chain for persistence (e.g., checkm8 persistent)
 - masOS/iOS cross: Mac Catalyst apps with native hooks
 
-### iOS Persistence (Jailbroken)
+## iOS Persistence (Jailbroken)
 
 - Launch daemons .plist files
 - Cydia Substrate tweak auto-load
 - SSH persistence via dropbear / OpenSSH
 - /etc/rc.d/ scripts (legacy)
 
-### iOS Evasion & Anti-Jailbreak Detection
+## iOS Evasion & Anti-Jailbreak Detection
 
 - Check for Cydia, Sileo, Zebra, /bin/bash, /private/var/lib/apt
 - Check abnormal entitlements (task\_for\_pid-allow, get-task-allow)
@@ -3505,7 +3500,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Kernel clean? (check sandbox, /dev/kmem)
 - Anti-debug (ptrace PT\_DENY\_ATTACH not fully on iOS but can use syscall)
 
-### ChromeOS Internals
+## ChromeOS Internals
 
 - Linux kernel + Chrome (browser) + Android (ARC) + containerization
 - Read-only root filesystem (verified boot)
@@ -3513,7 +3508,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Security: developer mode disabled, rootfs verification
 - Namespaces, cgroups, minijail (sandboxing processes)
 
-### ChromeOS Malware Possibilities
+## ChromeOS Malware Possibilities
 
 - Malicious Chrome extension (web store, side-loaded .crx)
 - Android apps (ARC++ runtime) with overlay permissions
@@ -3521,7 +3516,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Firmware malware (RW\_LEGACY, coreboot modifications with dev mode)
 - Chrome zero-day exploits (renderer RCE, sandbox escape)
 
-### ChromeOS Persistence
+## ChromeOS Persistence
 
 - As extension with “alarms” API for recurring tasks
 - As Linux container service (if developer mode enabled)
@@ -3529,14 +3524,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Crostini container startup script (if user has Linux enabled)
 - Custom firmware with read-write section
 
-### ChromeOS Evasion
+## ChromeOS Evasion
 
 - Check if running in verified mode (cryptohome, rootfs verification flags)
 - Limited direct executable execution; most malware must be extension or Android app
 - No direct kernel module loading (unless dev mode)
 - Use browser-specific rootkits (inject into tabs, v8 engine)
 
-### FreeBSD Internals
+## FreeBSD Internals
 
 - ELF binary format, similar to Linux but with differences
 - System call table, syscall via int 0x80 (legacy) or syscall (freebsd specific)
@@ -3544,7 +3539,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Built-in security (Capsicum capability mode, jail containers, MAC framework)
 - ZFS filesystem (snapshots, rollback)
 
-### FreeBSD Payload Execution
+## FreeBSD Payload Execution
 
 - LD\_PRELOAD equivalent: LD\_32\_PRELOAD, LD\_64\_PRELOAD, LD\_LIBRARY\_PATH
 - Process injection via ptrace (PT\_ATTACH, PT\_WRITE\_D)
@@ -3552,7 +3547,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - kldload kernel module (requires root)
 - rc script persistence (/etc/rc.conf, /usr/local/etc/rc.d)
 
-### FreeBSD Persistence
+## FreeBSD Persistence
 
 - cron (crontab -e, /etc/crontab)
 - rc scripts (local\_startup=/usr/local/etc/rc.d)
@@ -3561,7 +3556,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - SSH authorized\_keys, .ssh/rc
 - System startup via etc/rc.d/ scripts
 
-### FreeBSD Evasion
+## FreeBSD Evasion
 
 - Anti-debug (procctl, PT\_TRACE\_ME)
 - System call obfuscation (use freebsd specific syscall numbers)
@@ -3569,7 +3564,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Capsicum restriction bypass? difficult, but look for exposed capabilities
 - Jail escape via VFS or sysctl manipulation
 
-### Cross-OS Payload Generation & Frameworks - Offensive Frameworks
+## Cross-OS Payload Generation & Frameworks - Offensive Frameworks
 
 - Metasploit (payloads for all OS, meterpreter)
 - Cobalt Strike (post-ex across OS, beacon)
@@ -3578,7 +3573,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Mythic (cross-platform agents in C#, Python, JavaScript)
 - Havoc (modern C2 with sleep obfuscation, cross-platform)
 
-### Cross-OS Payload Generation & Frameworks - Custom Payload Development
+## Cross-OS Payload Generation & Frameworks - Custom Payload Development
 
 - Shellcode generation (msfvenom, custom assembly)
 - Writing position-independent shellcode (avoid null bytes)
@@ -3586,7 +3581,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Encrypted payloads (XOR, RC4, AES)
 - Protocol simulation (HTTP, HTTPS, DNS, SMB, WebSocket)
 
-### C2 (Command & Control) ProtocolsNetwork Evasion & Protocol
+## C2 (Command & Control) ProtocolsNetwork Evasion & Protocol
 
 - HTTP/HTTPS C2 (mimic normal traffic, jitter, custom headers)
 - DNS tunneling (dnscat2, iodine, Cobalt Strike DNS)
@@ -3596,7 +3591,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Over gRPC, MQTT (IoT)
 - Peer-to-peer (P2P) botnets over custom UDP/TCP
 
-### C2 (Command & Control) ProtocolsC2 Infrastructure
+## C2 (Command & Control) ProtocolsC2 Infrastructure
 
 - Domain fronting (CDN hide real server)
 - Fast flux DNS (changing IPs)
@@ -3604,7 +3599,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Profile-based malleable C2 (Cobalt Strike Malleable C2 profiles)
 - Using cloud providers (AWS, Azure, GCP) for ephemeral IPs
 
-### Anti-Virus & EDR Evasion - Static Evasion
+## Anti-Virus & EDR Evasion - Static Evasion
 
 - Packing (UPX, ASPack, VMProtect, Themida, Enigma)
 - Obfuscation (string encryption, control flow, junk code)
@@ -3612,7 +3607,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Metamorphic code (rewrites itself)
 - Custom crypter (stub decrypts and executes real payload)
 
-### Anti-Virus & EDR Evasion - Dynamic Evasion
+## Anti-Virus & EDR Evasion - Dynamic Evasion
 
 - Unhooking userland syscalls (restore ntdll from fresh copy)
 - Direct syscalls (Windows specific, skip EDR hooks)
@@ -3622,7 +3617,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Reflective DLL injection (no LoadLibrary call)
 - Shellcode execution via callback functions (EnumWindows, CreateTimerQueueTimer)
 
-### Anti-Virus & EDR Evasion - Behavioral Evasion
+## Anti-Virus & EDR Evasion - Behavioral Evasion
 
 - Muting suspicious API calls (replace with benign actions)
 - Low and slow (delay between actions, mimic human)
@@ -3631,26 +3626,26 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Junk operations (add decoy network traffic)
 - Remove indicators after execution (clean logs, registry artifacts)
 
-### Malware Delivery & Initial Access - Social Engineering
+## Malware Delivery & Initial Access - Social Engineering
 
 - Phishing email with macro (Office VBA)
 - Malicious PDF/Office with exploits (CVE-2017-0199, CVE-2021-40444)
 - Browser drive-by (exploit kits)
 - Trojanized software (cracked games, keygen)
 
-### Malware Delivery & Initial Access - Exploits
+## Malware Delivery & Initial Access - Exploits
 
 - Document format exploits (RTF, DOCX, XLS)
 - Browser exploits (Chromium, Firefox, Safari, Edge)
 - Network service exploitation (EternalBlue, BlueKeep)
 
-### Malware Delivery & Initial Access - Supply Chain
+## Malware Delivery & Initial Access - Supply Chain
 
 - Compromised dependencies (npm, PyPI, RubyGems)
 - Watering hole attacks
 - Firmware implants (UEFI, BIOS)
 
-### Malware Types & Specialization - Ransomware
+## Malware Types & Specialization - Ransomware
 
 - File encryption (AES + RSA, hybrid)
 - Volume shadow copy deletion (vssadmin, WMI)
@@ -3658,54 +3653,54 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Ransomware note placement (README.txt, .hta)
 - Anti-debug/analysis (VM detection, encryption only prod machines)
 
-### Malware Types & Specialization - Banking Trojans
+## Malware Types & Specialization - Banking Trojans
 
 - Web injects (modify browser pages)
 - Form grabbing (capture credentials)
 - Keylogging
 - SMS interception (Android)
 
-### Malware Types & Specialization - Botnets (Mirai-like)
+## Malware Types & Specialization - Botnets (Mirai-like)
 
 - IoT devices (telnet/ssh brute force)
 - C2 for DDoS (UDP, SYN, HTTP flood)
 - Self-spreading via default creds
 
-### Malware Types & Specialization - Infostealers
+## Malware Types & Specialization - Infostealers
 
 - Browser credential extraction (decrypt saved passwords)
 - FTP/SSH clients data
 - Crypto wallets (wallet.dat, private keys)
 - Clipboard hijacking (crypto addresses)
 
-### Malware Types & Specialization - RATs (Remote Access Trojans)
+## Malware Types & Specialization - RATs (Remote Access Trojans)
 
 - File manager, screen capture, keylogger, webcam capture
 - Remote shell, reverse proxy
 - Persistence as described for each OS
 
-### Platform-Specific Compiled Malware - Windows
+## Platform-Specific Compiled Malware - Windows
 
 - Native API, syscalls, COM
 - .NET with `System.Management`, `System.IO.Pipes`
 
-### Platform-Specific Compiled Malware - Linux (C, C++, Go, Rust)
+## Platform-Specific Compiled Malware - Linux (C, C++, Go, Rust)
 
 - ELF, syscall, LD\_PRELOAD
 
-### Platform-Specific Compiled Malware - macOS (Objective-C, Swift, C, Rust)
+## Platform-Specific Compiled Malware - macOS (Objective-C, Swift, C, Rust)
 
 - Objective-C runtime, IOKit
 
-### Platform-Specific Compiled Malware - Android (Java/Kotlin, native .so)
+## Platform-Specific Compiled Malware - Android (Java/Kotlin, native .so)
 
 - JNI, Binder
 
-### Platform-Specific Compiled Malware - iOS (Objective-C, Swift – jailbreak)
+## Platform-Specific Compiled Malware - iOS (Objective-C, Swift – jailbreak)
 
 - Cydia Substrate
 
-### Multi-OS Malware (Write once, run many)
+## Multi-OS Malware (Write once, run many)
 
 - Python with PyInstaller (compile to Windows/Linux/macOS)
 - Nim (cross-compile with tiny binaries)
@@ -3714,7 +3709,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - C with cross-compilation (MinGW for Windows from Linux)
 - Languages with runtime: Java (JAR), .NET Core (cross-platform)
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Write a Windows dropper (decrypt and inject shellcode)
 - Create Linux persistence via systemd timer (reverse shell)
@@ -3727,9 +3722,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Reverse existing malware (WannaCry, Mirai) to learn techniques
 - Contribute to open-source security tools (YARA, CAPE, Cuckoo)
 
-## AI Hacking
+# AI Hacking
 
-### Foundations
+## Foundations
 
 - What is AI hacking (attacking machine learning models, LLMs, AI pipelines)
 - Types of AI systems (classifiers, generative models, recommendation systems, LLMs)
@@ -3738,7 +3733,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Red teaming vs penetration testing for AI
 - Required skills (Python, ML basics, linear algebra, prompt engineering, reverse engineering)
 
-### Machine Learning Basics for Hackers
+## Machine Learning Basics for Hackers
 
 - Supervised vs unsupervised vs reinforcement learning
 - Neural networks (layers, activations, loss functions, backpropagation)
@@ -3747,7 +3742,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Confidence scores, logits, and probability outputs
 - Model hosting (Hugging Face, Azure ML, SageMaker, local)
 
-### Adversarial Attacks (Evasion)
+## Adversarial Attacks (Evasion)
 
 - What are adversarial examples (imperceptible perturbations)
 - Fast Gradient Sign Method (FGSM)
@@ -3760,7 +3755,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Black-box attacks (score-based, decision-based, transfer attacks)
 - Defenses: adversarial training, gradient masking, input preprocessing
 
-### Model Poisoning (Training Time)
+## Model Poisoning (Training Time)
 
 - Data poisoning (injecting malicious samples into training set)
 - Label flipping (mislabeling training examples)
@@ -3770,7 +3765,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Clean-label poisoning (samples appear correct but cause backdoor)
 - Defenses: data sanitization, robust aggregation, differential privacy
 
-### Model Stealing & Extraction
+## Model Stealing & Extraction
 
 - Model extraction via query access (clone model functionality)
 - Equation solving attacks (for linear/logistic regression)
@@ -3778,7 +3773,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Stealing hyperparameters (layer sizes, architecture)
 - Defenses: rate limiting, adding noise to logits, watermarking
 
-### Inference Attacks (Privacy)
+## Inference Attacks (Privacy)
 
 - Membership inference (was a data point in training set?)
 - Model inversion (reconstruct training data from model)
@@ -3786,7 +3781,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Gradient leakage (reconstruct data from shared gradients)
 - Defenses: differential privacy, model ensemble, output perturbation
 
-### LLM Prompt Hacking
+## LLM Prompt Hacking
 
 - Prompt injection (ignore system instructions, execute attacker commands)
 - Indirect prompt injection (from external data like web pages, emails)
@@ -3799,7 +3794,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Context window overflow attacks
 - Defenses: input filtering, instruction hierarchy, prompt-based guardrails
 
-### LLM Output Attacks
+## LLM Output Attacks
 
 - Hallucination exploitation (trick model to produce false facts)
 - Sensitive information disclosure (training data extraction via prompting)
@@ -3807,7 +3802,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Tool/plugin abuse (call malicious functions, SSRF via plugins)
 - Defenses: output validator, allowlist tools, human-in-the-loop
 
-### Retrieval Augmented Generation (RAG) Hacking
+## Retrieval Augmented Generation (RAG) Hacking
 
 - Vector database poisoning (inject malicious context into retrieved documents)
 - RAG prompt injection (malicious content in retrieved chunks)
@@ -3816,7 +3811,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Context manipulation via top-k poisoning
 - Defenses: chunk filtering, source verification, embedding sanitization
 
-### AI Model Reverse Engineering
+## AI Model Reverse Engineering
 
 - Extracting model architecture (query API + side channels)
 - Reversing serialized models (pickle, saved\_model.pb)
@@ -3825,7 +3820,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - ONNX model parsing (extract operators, constants)
 - Defenses: model encryption, secure serialization (Safetensors)
 
-### AI Supply Chain Attacks
+## AI Supply Chain Attacks
 
 - Compromised Hugging Face models (malicious transformers)
 - Typosquatting on PyPI / Conda (torch vs torh)
@@ -3834,7 +3829,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - CI/CD pipeline in MLOps (stolen credentials → model replacement)
 - Defenses: model signing, dataset provenance, checksum verification
 
-### AI Infrastructure Hacking
+## AI Infrastructure Hacking
 
 - MLflow server (no auth → RCE via model upload)
 - Jupyter notebook exposure (public notebook → shell)
@@ -3844,7 +3839,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Gradio / Streamlit app security (SSRF, eval injection)
 - Model serving endpoints (improper input validation)
 
-### Generative AI Specific
+## Generative AI Specific
 
 - Stable Diffusion / DALL-E jailbreaks (NSFW generation bypass)
 - Watermark removal (from AI-generated images)
@@ -3853,7 +3848,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Audio deepfake injection (voice cloning attacks)
 - Defenses: C2PA content credentials, robust watermarks
 
-### AI Red Teaming Frameworks
+## AI Red Teaming Frameworks
 
 - Microsoft Counterfit (adversarial ML toolkit)
 - Adversarial Robustness Toolbox (ART) – IBM
@@ -3863,7 +3858,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Giskard (AI quality and security testing)
 - LangTest (LLM evaluation security)
 
-### Automated AI Penetration Testing
+## Automated AI Penetration Testing
 
 - Automated prompt injection fuzzing
 - Toxicity, bias, and hallucination testing
@@ -3871,7 +3866,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Regression testing for safety alignment after fine-tuning
 - Continuous integration of adversarial tests in MLOps
 
-### Defensive AI Security
+## Defensive AI Security
 
 - Adversarial training (retrain on adversarial examples)
 - Input sanitization (remove malicious patterns from prompts)
@@ -3882,7 +3877,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Federated learning secure aggregation
 - Secure multi-party computation for model evaluation
 
-### Attacking AI Agents & Autonomous Systems
+## Attacking AI Agents & Autonomous Systems
 
 - Autonomous agents (AutoGPT, BabyAGI) – command injection via task
 - Tool-executing agents (LangChain, Semantic Kernel) – malicious tool call
@@ -3890,7 +3885,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Browser automation agents (clickjacking, XSS in environment)
 - Defenses: tool allowlisting, human approval for sensitive actions
 
-### Physical AI Hacking
+## Physical AI Hacking
 
 - Adversarial patches on road signs (stopsign recognition bypass)
 - Fooling facial recognition (printed glasses, adversarial makeup)
@@ -3898,7 +3893,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - LiDAR spoofing (autonomous vehicle confusion)
 - Defenses: ensemble sensors, object consistency checks
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Build a simple classifier and break it with FGSM
 - Perform membership inference on a public model (CIFAR-10)
@@ -3910,9 +3905,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Write a report on OWASP Top 10 for LLMs with real examples
 - Contribute to AI red teaming tools (Counterfit, Garak)
 
-## Pentest Methods and Rules
+# Pentest Methods and Rules
 
-### Pentesting Fundamentals
+## Pentesting Fundamentals
 
 - What is penetration testing (vs vulnerability assessment, security audit, red teaming)
 - Goals of pentesting (find vulnerabilities, measure risk, validate defenses, meet compliance)
@@ -3920,7 +3915,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Pentesting lifecycle (planning, reconnaissance, scanning, exploitation, post-exploitation, reporting)
 - Legal and ethical boundaries (authorization, scope, non-disclosure agreements)
 
-### Pentesting Standards & Frameworks - PTES (Penetration Testing Execution Standard)
+## Pentesting Standards & Frameworks - PTES (Penetration Testing Execution Standard)
 
 - Pre-engagement interactions
 - Intelligence gathering
@@ -3930,44 +3925,44 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Post-exploitation
 - Reporting
 
-### Pentesting Standards & Frameworks - OWASP Testing Guide
+## Pentesting Standards & Frameworks - OWASP Testing Guide
 
 - OWASP Web Security Testing Guide (WSTG)
 - OWASP Mobile Security Testing Guide (MSTG)
 - OWASP API Security Top 10
 - OWASP LLM Top 10
 
-### Pentesting Standards & Frameworks - NIST SP 800-115
+## Pentesting Standards & Frameworks - NIST SP 800-115
 
 - Technical guide to information security testing
 - Assessment types, test methods, and reporting
 
-### Pentesting Standards & Frameworks - ISSAF (Information Systems Security Assessment Framework)
+## Pentesting Standards & Frameworks - ISSAF (Information Systems Security Assessment Framework)
 
 - Penetration testing methodology covering ten domains
 
-### Pentesting Standards & Frameworks - PCI DSS (Payment Card Industry)
+## Pentesting Standards & Frameworks - PCI DSS (Payment Card Industry)
 
 - ASV scans, internal/external penetration testing requirements
 - Segmentation checks, application layer tests
 
-### Pentesting Standards & Frameworks - CREST
+## Pentesting Standards & Frameworks - CREST
 
 - CREST penetration testing methodology
 - Simulated target attack, intelligence-led testing
 
-### Pentesting Standards & Frameworks - MITRE ATT\&CK
+## Pentesting Standards & Frameworks - MITRE ATT\&CK
 
 - Adversarial tactics, techniques, and procedures (TTPs)
 - Pre-ATT\&CK, ATT\&CK for Enterprise (Windows, Linux, macOS, Cloud, Containers)
 - Mapping pentest findings to ATT\&CK (technique IDs, mitigations)
 
-### Pentesting Standards & Frameworks - OWASP ASVS (Application Security Verification Standard)
+## Pentesting Standards & Frameworks - OWASP ASVS (Application Security Verification Standard)
 
 - Verification levels (L1, L2, L3)
 - Controls mapping for pentest coverage
 
-### Rules of Engagement (RoE)
+## Rules of Engagement (RoE)
 
 - Scope definition (IP ranges, domains, applications, APIs, cloud assets, user accounts)
 - Allowed and prohibited actions (DoS, data destruction, social engineering, physical entry)
@@ -3976,7 +3971,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Handling of sensitive data (PII, credit cards, health records)
 - Reporting rules (evidence handling, non-disclosure, retention)
 
-### Pre-Engagement Activities
+## Pre-Engagement Activities
 
 - Kickoff meeting (agenda, stakeholders, scope review)
 - Questionnaires (business functions, critical assets, existing defenses)
@@ -3984,7 +3979,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Environment preparation (pentest machines, VPN access, jump hosts)
 - Legal considerations (cross-border data transfer, safe harbor clauses)
 
-### Threat Modeling
+## Threat Modeling
 
 - Identifying assets, threat agents, attack vectors
 - STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege)
@@ -3992,7 +3987,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - DREAD risk rating model
 - Attack trees and threat libraries (CAPEC, OWASP)
 
-### Reconnaissance (Passive & Active) - Passive Recon
+## Reconnaissance (Passive & Active) - Passive Recon
 
 - OSINT (Open Source Intelligence): search engines, social media, job postings
 - DNS enumeration (dig, nslookup, whois, dnsrecon, sublist3r)
@@ -4000,7 +3995,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Email harvesting, breached credentials (haveibeenpwned, dehashed)
 - Technology fingerprinting (Wappalyzer, BuiltWith, WhatWeb)
 
-### Reconnaissance (Passive & Active) - Active Recon
+## Reconnaissance (Passive & Active) - Active Recon
 
 - Network scanning (nmap, masscan, unicornscan)
 - Port scanning techniques (SYN, TCP connect, UDP, FIN, NULL, XMAS)
@@ -4009,7 +4004,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Web directory brute forcing (dirb, gobuster, ffuf, dirsearch)
 - API endpoint discovery (Swagger, Postman collections, GraphQL introspection)
 
-### Vulnerability Analysis
+## Vulnerability Analysis
 
 - Vulnerability identification (CVE, CWE, CVSS 3.1 calculator)
 - Manual vs automated verification (avoid false positives)
@@ -4017,53 +4012,53 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Vulnerability chaining (multiple low risk lead to critical)
 - Exploitability classification (public exploit, theoretical, requires authentication)
 
-### Exploitation Phases - Credential Attacks
+## Exploitation Phases - Credential Attacks
 
 - Password spraying, brute force via Hydra, Medusa, Ncrack
 - Dictionary attacks, custom wordlist generation (CeWL, crunch)
 - Password hash capture (Responder, Inveigh for LLMNR/NBT-NS)
 - Pass-the-hash, pass-the-ticket
 
-### Exploitation Phases - Client-Side Testing
+## Exploitation Phases - Client-Side Testing
 
 - Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF)
 - Clickjacking, HTML injection, CSS injection
 - DOM-based vulnerabilities
 
-### Exploitation Phases - Server-Side Testing
+## Exploitation Phases - Server-Side Testing
 
 - SQL injection (manual, sqlmap), NoSQL injection
 - Command injection, LDAP injection, XPath injection
 - Path traversal, file inclusion (LFI/RFI), SSRF
 - XML External Entities (XXE), insecure deserialization
 
-### Exploitation Phases - Authentication & Session Testing
+## Exploitation Phases - Authentication & Session Testing
 
 - JWT attacks (alg none, weak secrets, kid injection)
 - Session fixation, session prediction
 - Weak password policies, insecure password reset flows
 
-### Exploitation Phases - Authorization Testing
+## Exploitation Phases - Authorization Testing
 
 - Insecure Direct Object References (IDOR)
 - Path-based privilege escalation, forced browsing
 - Horizontal/vertical privilege escalation, parameter manipulation
 
-### Exploitation Phases - Business Logic Testing
+## Exploitation Phases - Business Logic Testing
 
 - Workflow bypasses (order skipping, discount abuse)
 - Race conditions (concurrent requests, time-of-check time-of-use)
 - CAPTCHA bypass (reuse token, OCR, solution-as-service)
 - Limits override (rate limiting, quantity validation)
 
-### Exploitation Phases - Infrastructure Exploitation
+## Exploitation Phases - Infrastructure Exploitation
 
 - Known vulnerabilities (public exploit databases: Exploit-DB, Packet Storm)
 - Metasploit framework, manual exploitation
 - Privilege escalation (Linux, Windows, cloud as covered in earlier sections)
 - Pass-the-hash, golden ticket, silver ticket
 
-### Post-Exploitation Activities (as per engagement scope)
+## Post-Exploitation Activities (as per engagement scope)
 
 - Deeper network enumeration (lateral movement testing)
 - Data discovery (PII, credentials, financial data)
@@ -4071,21 +4066,21 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Pivot testing (tunneling, port forwarding, proxy chaining only within scope)
 - Cleanup (remove backdoors, close shells, clear logs – if allowed)
 
-### Social Engineering Testing
+## Social Engineering Testing
 
 - Phishing campaigns (email, SMS, phone – vishing)
 - Physical tailgating, badge cloning (with physical access approval)
 - USB drop testing (malicious device drops)
 - Impersonation pretexting
 
-### Physical Security Testing
+## Physical Security Testing
 
 - Facility access control verification (door locks, biometrics)
 - Dumpster diving (with permission and legal coverage)
 - Server room access attempts
 - Security guard social engineering
 
-### Reporting - Structure of a Pentest Report
+## Reporting - Structure of a Pentest Report
 
 - Executive summary (high-level findings, business impact, risk rating)
 - Scope, methodology, and coverage
@@ -4094,53 +4089,53 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Remediation steps (short-term, long-term)
 - Appendices (tool versions, logs, raw scan data)
 
-### Reporting - Proof of Concept (PoC) Guidelines
+## Reporting - Proof of Concept (PoC) Guidelines
 
 - Clear reproduction steps (screenshots, commands, requests/responses)
 - Anonymized sensitive data (PII redacted)
 - Video PoC optional for complex exploits
 
-### Reporting - Risk Rating & CVSS
+## Reporting - Risk Rating & CVSS
 
 - CVSS 3.1 base metrics (AV, AC, PR, UI, S, C, I, A)
 - Temporal metrics (exploit code maturity, remediation level, report confidence)
 - Environmental metrics (customized for client’s risk tolerance)
 - Business impact assessment (financial, reputation, compliance)
 
-### Remediation & Retesting
+## Remediation & Retesting
 
 - Providing clear remediation guidance (patching, configuration change, code fix)
 - Prioritized roadmap (critical, high, medium, low)
 - Retesting window (e.g., 30-90 days after fix)
 - Regression testing scope (only fixed findings, or limited retest nearby)
 
-### Compliance-Driven Pentesting - PCI DSS
+## Compliance-Driven Pentesting - PCI DSS
 
 - Quarterly external scans, annual pentests after significant changes
 - Segmentation checks for CDE (Cardholder Data Environment)
 - Application layer tests (OWASP Top 10 coverage)
 
-### Compliance-Driven Pentesting - HIPAA Security Rule
+## Compliance-Driven Pentesting - HIPAA Security Rule
 
 - Risk analysis, access controls, audit controls, integrity controls
 - Transmission security, vulnerability management, penetration testing
 
-### Compliance-Driven Pentesting - SOC 2 Type II (SOC for Service Organizations)
+## Compliance-Driven Pentesting - SOC 2 Type II (SOC for Service Organizations)
 
 - Security, availability, processing integrity, confidentiality, privacy
 - Pentesting within Trust Services Criteria
 
-### Compliance-Driven Pentesting - ISO 27001:2022
+## Compliance-Driven Pentesting - ISO 27001:2022
 
 - Control A.8.8 (technical vulnerability management)
 - Penetration testing as part of continuous improvement
 
-### Compliance-Driven Pentesting - FISMA / FedRAMP
+## Compliance-Driven Pentesting - FISMA / FedRAMP
 
 - NIST 800-53 controls (CA-8, RA-5)
 - Penetration testing for federal information systems
 
-### Pentesting in Agile & DevOps
+## Pentesting in Agile & DevOps
 
 - CI/CD pipeline security testing (Jenkins, GitLab CI)
 - DAST integration (OWASP ZAP, Burp Suite pro in CI)
@@ -4148,14 +4143,14 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Container image scanning (Trivy, Grype, Clair)
 - Shift-left security (test early, test often)
 
-### Cloud-Specific Pentesting Considerations
+## Cloud-Specific Pentesting Considerations
 
 - AWS penetration testing policies (allowlisted services, prohibition of DoS, zone exhaustion)
 - Azure pen testing approval (authorization via Microsoft form)
 - GCP pen testing guidelines (no DDoS, no compute engine abuse)
 - Shared responsibility model impact (tenant vs provider testing)
 
-### Pentesting Tools & Automation - Core Tools
+## Pentesting Tools & Automation - Core Tools
 
 - Nmap (network discovery)
 - Burp Suite / OWASP ZAP (web testing)
@@ -4165,7 +4160,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Wireshark / tcpdump (traffic analysis)
 - Sqlmap (SQL injection automation)
 
-### Pentesting Tools & Automation - Automation Frameworks
+## Pentesting Tools & Automation - Automation Frameworks
 
 - AutoRecon (automated reconnaissance)
 - Sn1per (semi-automated pentest)
@@ -4173,7 +4168,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Reaper (automated scanning and reporting)
 - PentestGPT (LLM-assisted pentesting planning)
 
-### Ethical & Legal Rules Recap
+## Ethical & Legal Rules Recap
 
 - Authorization in writing (signed contract, SOW)
 - Do not cross scope boundaries (accidental out-of-scope systems – stop and report)
@@ -4182,7 +4177,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Safe harbor for pentesters (protection against liability for inevitable minor collateral)
 - Report findings promptly, especially critical remote code execution
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Conduct a full life cycle pentest on a lab environment (Metasploitable, DVWA, Juice Shop)
 - Write a professional pentest report with findings and remediation
@@ -4192,9 +4187,9 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Practice reporting using industry templates (example: public bug bounty report)
 - Take CREST certification (CCT) or OSCP exam methodology
 
-## CVE Hunting
+# CVE Hunting
 
-### Foundations
+## Foundations
 
 - What is a CVE (Common Vulnerabilities and Exposures)
 - What is CVE hunting (proactive vulnerability discovery leading to CVE assignment)
@@ -4204,7 +4199,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Required skills (C/C++, assembly, reverse engineering, fuzzing, source code auditing, operating systems)
 - Mindset of a vulnerability researcher (curiosity, persistence, systematic thinking)
 
-### CVE Lifecycle & Ecosystem
+## CVE Lifecycle & Ecosystem
 
 - CVE lifecycle stages (Discovery → Request → Assignment → Publication → Enrichment)
 - CVE ID format (CVE-YEAR-NUMBER)
@@ -4214,7 +4209,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - MITRE ATT\&CK mapping for vulnerability context
 - Difference between reserved, published, rejected, and disputed CVE states
 
-### Target Selection & Scope Definition
+## Target Selection & Scope Definition
 
 - Types of targets (open-source software, commercial software, firmware, drivers, kernels)
 - High-value targets (widely deployed software, critical infrastructure, network-facing services)
@@ -4224,7 +4219,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Following vulnerability trends (CWE top 25, OWASP Top 10, CISA KEV)
 - Building a target research list (personal interest, industry demand, bug bounty programs)
 
-### Source Code Auditing (Static Analysis)
+## Source Code Auditing (Static Analysis)
 
 - Manual code review techniques (taint tracking, control flow analysis, data flow analysis)
 - Common vulnerability patterns (buffer overflows, integer overflows, format strings, race conditions, TOCTOU)
@@ -4236,7 +4231,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Semgrep rule creation (pattern matching for bug classes)
 - Taint analysis for tracking unsanitized user input
 
-### Binary Reverse Engineering (Closed-Source Hunting)
+## Binary Reverse Engineering (Closed-Source Hunting)
 
 - Disassemblers and decompilers (Ghidra, IDA Pro, Binary Ninja, radare2)
 - Binary diffing (BinDiff, Diaphora) for patch analysis
@@ -4248,7 +4243,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Symblic execution (angr, KLEE, Triton) for path exploration
 - Extracting and analyzing firmware (binwalk, firmware-mod-kit, QEMU emulation)
 
-### Fuzzing for Vulnerability Discovery
+## Fuzzing for Vulnerability Discovery
 
 - Fuzzing fundamentals (generation-based, mutation-based, coverage-guided)
 - Coverage-guided fuzzing (AFL, AFL++, libFuzzer, honggfuzz)
@@ -4263,7 +4258,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Reproducing crashes (identifying input that triggers bug)
 - LLM-generated fuzz targets (AI creates test harnesses and mutates inputs)
 
-### Patch Diffing & 1-Day Vulnerability Analysis
+## Patch Diffing & 1-Day Vulnerability Analysis
 
 - Why patch diffing (find fixed vulnerabilities, discover variants)
 - Obtaining pre-patch and post-patch binaries or source
@@ -4275,7 +4270,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Developing proof-of-concept (recreate original vulnerability)
 - Variant analysis (find similar bugs in other codebases or versions)
 
-### Root Cause Analysis (RCA)
+## Root Cause Analysis (RCA)
 
 - Isolating the vulnerable code path (function, line, condition)
 - Understanding input that triggers bug
@@ -4287,7 +4282,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Memory corruption analysis (buffer overflow, use-after-free, double free, type confusion race condition)
 - Logic bug analysis (authentication bypass, authorization flaws, business logic errors)
 
-### Variant Analysis & Bug Chaining
+## Variant Analysis & Bug Chaining
 
 - Finding similar code patterns (grep, Semgrep, CodeQL across codebase)
 - Parameterization of vulnerable patterns (template for searches)
@@ -4296,7 +4291,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Bug chaining (multiple low-severity issues chain to critical)
 - Regression testing (re-check after patches)
 
-### Exploit Development (Proof-of-Concept)
+## Exploit Development (Proof-of-Concept)
 
 - Building reliable PoC (demonstrates impact without weaponization)
 - Memory corruption exploitation (stack overflow → ROP, heap overflow → allocation primitive)
@@ -4308,7 +4303,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Crash PoC vs full exploit (depending on disclosure policy)
 - Environment-specific exploitation (OS version, library versions, mitigations)
 
-### CVE Assignment & Documentation
+## CVE Assignment & Documentation
 
 - When to request a CVE (confirmed vulnerability, not duplicate, not already public)
 - Finding appropriate CNA (vendor CNA, root CNA, or MITRE)
@@ -4320,7 +4315,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Coordinated disclosure timeline (reporting, vendor response, patch release, public disclosure)
 - Handling non-responsive vendors (public disclosure after 90-day grace period)
 
-### Responsible Disclosure & Communication
+## Responsible Disclosure & Communication
 
 - Vendor contact discovery (security contacts, bug bounty programs, HackerOne)
 - Encrypted communication (PGP/GPG for sensitive reports)
@@ -4331,21 +4326,21 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Public disclosure channels (Full Disclosure mailing list, blog post, conference talk)
 - Credit and acknowledgments (write-ups, CVEs, Hall of Fame)
 
-### CVE Hunting Tools - Static Analysis Tools
+## CVE Hunting Tools - Static Analysis Tools
 
 - Semgrep with custom rules (pattern-based bug detection)
 - CodeQL (GitHub semantic code analysis engine)
 - SonarQube (continuous code quality and security)
 - Checkmarx / Fortify (enterprise SAST)
 
-### CVE Hunting Tools - Reverse Engineering Tools
+## CVE Hunting Tools - Reverse Engineering Tools
 
 - Ghidra (NSA open-source reverse engineering framework)
 - IDA Pro (industry-standard disassembler)
 - Binary Ninja / radare2 / Cutter
 - Ghidra headless automation scripts
 
-### CVE Hunting Tools - Fuzzing Tools
+## CVE Hunting Tools - Fuzzing Tools
 
 - AFL++ (coverage-guided fuzzing)
 - libFuzzer (in-process coverage-guided fuzzing)
@@ -4354,13 +4349,13 @@ modified: 2026-10-22T16:40:56.697-03:00
 - OSS-Fuzz (Google’s continuous fuzzing for open source)
 - boofuzz (network protocol fuzzing)
 
-### CVE Hunting Tools - Exploitation Tools
+## CVE Hunting Tools - Exploitation Tools
 
 - Metasploit (modular exploitation framework)
 - pwntools (CTF exploit development)
 - ROPgadget / ropper (gadget discovery)
 
-### Vulnerability Databases & Intelligence
+## Vulnerability Databases & Intelligence
 
 - NVD (National Vulnerability Database) – CVE enrichment and CVSS
 - CVE Details (vulnerability statistics and metrics)
@@ -4370,7 +4365,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Vendor security advisories (Microsoft, Google, Apple, Linux distributions)
 - Mailing lists (oss-security, Bugtraq, Full Disclosure)
 
-### Advanced Hunting Techniques
+## Advanced Hunting Techniques
 
 - Hardware-assisted debugging (JTAG, UART for embedded)
 - Firmware extraction and emulation (binwalk, QEMU, Firmadyne)
@@ -4381,7 +4376,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Concolic testing (concrete + symbolic execution)
 - LLM for vulnerability research (code analysis, query generation, crash analysis)
 
-### CVE Hunting for Specific Domains
+## CVE Hunting for Specific Domains
 
 - Linux kernel CVE hunting (syzkaller, static analysis, review of subsystem patches)
 - Windows driver CVE hunting (driver collection, IOCTL fuzzing, static analysis)
@@ -4390,7 +4385,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Mobile application CVE hunting (Android/iOS reverse engineering, Xposed/Frida Instrumentation)
 - IoT and firmware CVE hunting (hardware extraction, JTAG, serial console)
 
-### Quality & Validation
+## Quality & Validation
 
 - Reproducibility (vulnerability triggers consistently)
 - False positive elimination (confirmation before reporting)
@@ -4398,7 +4393,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Regression testing (verification after vendor patch)
 - Exploitability assessment (crash only vs control flow hijack vs RCE)
 
-### Building a CVE Hunting Workflow
+## Building a CVE Hunting Workflow
 
 - Target selection (software of interest or high impact)
 - Setting up lab environment (isolated VMs, instrumented builds, debug symbols)
@@ -4408,7 +4403,7 @@ modified: 2026-10-22T16:40:56.697-03:00
 - Writing report and requesting CVE (coordinated with vendor)
 - Public disclosure (blog post, write-up, conference talk)
 
-### Real-World Mastery
+## Real-World Mastery
 
 - Study past CVE write-ups and root cause analysis
 - Practice with vulnerable software (Damn Vulnerable Linux, VulnHub, HackTheBox)
