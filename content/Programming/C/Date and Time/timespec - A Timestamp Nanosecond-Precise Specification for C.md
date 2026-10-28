@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-10-22T14:05:21.720-03:00
-modified: 2026-10-28T15:30:48.341-03:00
+modified: 2026-10-28T16:24:04.197-03:00
 ---
 
 # Introduction
@@ -489,6 +489,8 @@ int main() {
     return 0;
 }
 ```
+
+> Source code available at https://github.com/Yyax13/tests/blob/1d28228d75132eca6edbc11fbde4bf9ec7d98d39/testesemc/timespec-nanosleep/main.c
 
 Again we have the `timespec_diff` that was already explained in [[#4. Monotonic|this section]]. The main function logic is pretty simple, firstly we create three `struct timespec` uninitialized instances:
 

@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-10-05T15:21:02.522-03:00
-modified: 2026-10-26T15:53:06.944-03:00
+modified: 2026-10-28T17:37:46.985-03:00
 ---
 
 # thrd\_t - A simple parallel threading API
@@ -250,6 +250,16 @@ In that we use workers to run a real function, so we have a wrapper called `work
 There isn't much technical differences between this version and the simple math version, both use the worker function (in this case `worker_f`) to manage workers. The main difference is that the functional version (not like the other don't work, functional because it's actually using real function calling) uses the `tasks` array with function pointer AND argument (`void *`) pointer in the structure.
 
 I highly recommend reading this code and the other one before trying to write your own task benchmark, without AI, so you can train your knowledge ;)
+
+The expected result for this example with $24$ workers when compared with $1$ worker, both with $5.000.000$ tasks is:
+
+```
+[12ms][main][~/Projects/Tests/testesemc/thrd_t-work-chunks] :) ./main 24 5000000
+Program ended
+[6,689s][main][~/Projects/Tests/testesemc/thrd_t-work-chunks] :) ./main 1 5000000 
+Program ended
+[26,564s][main][~/Projects/Tests/testesemc/thrd_t-work-chunks] :) 
+```
 
 # API Lookup
 
