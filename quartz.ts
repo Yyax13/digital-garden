@@ -84,25 +84,35 @@ ExternalPlugin.CustomOgImages({
 // -------------------------------------------------------------------------
 
 function getOriginalMarkdown(fileData: any): string {
+  const cwd = process.cwd()
+
   const candidates = [
     fileData.filePath
-      ? resolve(fileData.filePath)
+      ? resolve(cwd, fileData.filePath)
       : undefined,
 
     fileData.filePath
-      ? resolve("content", fileData.filePath)
+      ? resolve(cwd, "content", fileData.filePath)
       : undefined,
 
     fileData.slug
-      ? resolve("content", `${fileData.slug}.md`)
+      ? resolve(cwd, "content", `${fileData.slug}.md`)
       : undefined,
-  ]
+  ].filter((file): file is string => Boolean(file))
 
   for (const file of candidates) {
-    if (file && existsSync(file)) {
+    if (existsSync(file)) {
+      console.log(`[OG TOC] Markdown found: ${file}`)
       return readFileSync(file, "utf8")
     }
   }
+
+  console.error("[OG TOC] Could not locate source Markdown", {
+    cwd,
+    filePath: fileData.filePath,
+    slug: fileData.slug,
+    candidates,
+  })
 
   return ""
 }
