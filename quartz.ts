@@ -34,13 +34,13 @@ ExternalPlugin.CustomOgImages({
   excludeRoot: false,
 
   imageStructure: (
-    cfg: any,
-    userOpts: any,
-    title: string,
-    _description: string,
-    fonts: any,
-    fileData: any,
-  ) => {
+  cfg: any,
+  fileData: any,
+  userOpts: any,
+  title: string,
+  _description: string,
+  fonts: any,
+) => { {
     const fm = fileData.frontmatter ?? {}
     const dates = fileData.dates ?? {}
 
