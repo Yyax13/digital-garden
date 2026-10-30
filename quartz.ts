@@ -1,31 +1,15 @@
 
+import { h } from "preact"
 import * as ExternalPlugin from "./.quartz/plugins"
-import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
+import {
+  loadQuartzConfig,
+  loadQuartzLayout,
+} from "./quartz/plugins/loader/config-loader"
 
 // -----------------------------------------------------------------------------
-// Custom Open Graph image
-// Must be registered BEFORE loadQuartzConfig()
+// Custom OG Images
+// The plugin is registered before loadQuartzConfig()
 // -----------------------------------------------------------------------------
-
-// Satori-compatible element factory (no React dependency)
-const h = (
-  type: string,
-  props: Record<string, any> | null,
-  ...children: any[]
-) => ({
-  type,
-  props: {
-    ...(props ?? {}),
-    ...(children.length > 0
-      ? {
-          children:
-            children.length === 1
-              ? children[0]
-              : children,
-        }
-      : {}),
-  },
-})
 
 ExternalPlugin.CustomOgImages({
   colorScheme: "darkMode",
@@ -33,22 +17,21 @@ ExternalPlugin.CustomOgImages({
   height: 630,
   excludeRoot: false,
 
-  imageStructure: (
-  cfg: any,
-  fileData: any,
-  userOpts: any,
-  title: string,
-  _description: string,
-  fonts: any,
-) => {
-    const fm = fileData.frontmatter ?? {}
-    const dates = fileData.dates ?? {}
-
+  // IMPORTANT: the plugin passes ONE options object.
+  imageStructure: ({
+    cfg,
+    fileData,
+    title,
+    fonts,
+  }: any) => {
     // -------------------------------------------------------------------------
     // Metadata
     // -------------------------------------------------------------------------
 
-    const rawAuthor = fm.author
+    const fm = fileData?.frontmatter ?? {}
+    const dates = fileData?.dates ?? {}
+
+    const rawAuthor = fm.author ?? fm.authors
 
     const author = Array.isArray(rawAuthor)
       ? rawAuthor.join(", ")
@@ -63,43 +46,60 @@ ExternalPlugin.CustomOgImages({
       fm.publishDate ??
       fm.date
 
-    const date = rawDate ? new Date(rawDate) : null
+    const parsedDate = rawDate
+      ? rawDate instanceof Date
+        ? rawDate
+        : new Date(rawDate)
+      : null
 
     const published =
-      date && !isNaN(date.getTime())
+      parsedDate && !isNaN(parsedDate.getTime())
         ? new Intl.DateTimeFormat(cfg.locale ?? "en-US", {
             year: "numeric",
             month: "short",
             day: "2-digit",
-          }).format(date)
+          }).format(parsedDate)
         : "Unknown date"
 
     // -------------------------------------------------------------------------
-    // Unfinished tag
+    // Unfinished status
     // -------------------------------------------------------------------------
 
-    const rawTags = [
-      ...(Array.isArray(fm.tags) ? fm.tags : []),
-      ...(Array.isArray(fileData.tags) ? fileData.tags : []),
-    ]
+    const tags: string[] = Array.isArray(fm.tags)
+      ? fm.tags.map(String)
+      : typeof fm.tags === "string"
+        ? [fm.tags]
+        : []
 
-    const unfinished = rawTags.some(
-      (tag: string) =>
-        String(tag).replace(/^#/, "").toLowerCase() === "unfinished",
+    const unfinished = tags.some(
+      (tag) =>
+        tag.replace(/^#/, "").toLowerCase() === "unfinished",
     )
 
     // -------------------------------------------------------------------------
     // Table of Contents: H1 only
     // -------------------------------------------------------------------------
 
-    const markdown = String(fileData.text ?? "")
+    const markdown = String(fileData?.text ?? "")
     const headings: string[] = []
 
     let insideCodeBlock = false
+    let codeFence = ""
 
-    for (const line of markdown.split("\n")) {
-      if (/^\s*(```|~~~)/.test(line)) {
-        insideCodeBlock = !insideCodeBlock
+    for (const line of markdown.split(/\r?\n/)) {
+      const fenceMatch = line.match(/^\s*(`{3,}|~{3,})/)
+
+      if (fenceMatch) {
+        const currentFence = fenceMatch[1][0]
+
+        if (!insideCodeBlock) {
+          insideCodeBlock = true
+          codeFence = currentFence
+        } else if (currentFence === codeFence) {
+          insideCodeBlock = false
+          codeFence = ""
+        }
+
         continue
       }
 
@@ -139,7 +139,7 @@ ExternalPlugin.CustomOgImages({
     const bodyFont = fonts[1].name
 
     // -------------------------------------------------------------------------
-    // Author monogram
+    // Author initials
     // -------------------------------------------------------------------------
 
     const initials = author
@@ -151,6 +151,7 @@ ExternalPlugin.CustomOgImages({
 
     // -------------------------------------------------------------------------
     // Reusable components
+    // Preact h() returns the VNodes consumed by Satori.
     // -------------------------------------------------------------------------
 
     const text = (
@@ -192,7 +193,7 @@ ExternalPlugin.CustomOgImages({
       )
 
     // -------------------------------------------------------------------------
-    // OG image
+    // Image structure
     // -------------------------------------------------------------------------
 
     return h(
@@ -298,7 +299,7 @@ ExternalPlugin.CustomOgImages({
             }),
           ),
 
-          // Publication date + unfinished status
+          // Publication date and status
 
           h(
             "div",
@@ -311,8 +312,6 @@ ExternalPlugin.CustomOgImages({
                 gap: 12,
               },
             },
-
-            // Publication date
 
             panel(
               [
@@ -331,8 +330,6 @@ ExternalPlugin.CustomOgImages({
               ],
               { flex: 1 },
             ),
-
-            // Status
 
             panel(
               [
@@ -391,7 +388,9 @@ ExternalPlugin.CustomOgImages({
             fontWeight: 800,
             lineHeight: 1.15,
             letterSpacing: -1.5,
-            lineClamp: 5,
+            display: "-webkit-box",
+            WebkitBoxOrient: "vertical",
+            WebkitLineClamp: 5,
             overflow: "hidden",
           }),
         ),
@@ -416,8 +415,6 @@ ExternalPlugin.CustomOgImages({
             overflow: "hidden",
           },
         },
-
-        // TOC title
 
         text("CONTENTS", {
           fontFamily: headerFont,
@@ -467,27 +464,25 @@ ExternalPlugin.CustomOgImages({
                   },
                 },
 
-                text(
-                  String(index + 1).padStart(2, "0"),
-                  {
-                    color: colors.accent,
-                    fontSize: 13,
-                    fontWeight: 700,
-                    flexShrink: 0,
-                  },
-                ),
+                text(String(index + 1).padStart(2, "0"), {
+                  color: colors.accent,
+                  fontSize: 13,
+                  fontWeight: 700,
+                  flexShrink: 0,
+                }),
 
                 text(heading, {
                   fontSize: 15,
                   color: colors.secondary,
                   lineHeight: 1.4,
-                  lineClamp: 2,
+                  display: "-webkit-box",
+                  WebkitBoxOrient: "vertical",
+                  WebkitLineClamp: 2,
+                  overflow: "hidden",
                 }),
               ),
           ),
         ),
-
-        // Empty TOC fallback
 
         ...(headings.length === 0
           ? [
