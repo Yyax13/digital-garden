@@ -40,7 +40,7 @@ ExternalPlugin.CustomOgImages({
   title: string,
   _description: string,
   fonts: any,
-) => { {
+) => {
     const fm = fileData.frontmatter ?? {}
     const dates = fileData.dates ?? {}
 
