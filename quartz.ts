@@ -5,12 +5,9 @@ import {
   loadQuartzConfig,
   loadQuartzLayout,
 } from "./quartz/plugins/loader/config-loader"
-import { existsSync, readFileSync } from "node:fs"
-import { resolve } from "node:path"
 
 // -----------------------------------------------------------------------------
 // Custom OG Images
-// The plugin is registered before loadQuartzConfig()
 // -----------------------------------------------------------------------------
 
 ExternalPlugin.CustomOgImages({
@@ -19,12 +16,12 @@ ExternalPlugin.CustomOgImages({
   height: 630,
   excludeRoot: false,
 
-  // IMPORTANT: the plugin passes ONE options object.
   imageStructure: ({
     cfg,
     fileData,
     title,
     fonts,
+    iconBase64,
   }: any) => {
     // -------------------------------------------------------------------------
     // Metadata
@@ -64,8 +61,13 @@ ExternalPlugin.CustomOgImages({
         : "Unknown date"
 
     // -------------------------------------------------------------------------
-    // Unfinished status
+    // Description and tags
     // -------------------------------------------------------------------------
+
+    const description =
+      fileData?.description ??
+      fm.description ??
+      ""
 
     const tags: string[] = Array.isArray(fm.tags)
       ? fm.tags.map(String)
@@ -78,116 +80,15 @@ ExternalPlugin.CustomOgImages({
         tag.replace(/^#/, "").toLowerCase() === "unfinished",
     )
 
-    // -------------------------------------------------------------------------
-// Table of Contents: H1 only
-// Read original Markdown through fileData.filePath
-// -------------------------------------------------------------------------
-
-function getOriginalMarkdown(fileData: any): string {
-  const cwd = process.cwd()
-
-  const candidates = [
-    fileData.filePath
-      ? resolve(cwd, fileData.filePath)
-      : undefined,
-
-    fileData.filePath
-      ? resolve(cwd, "content", fileData.filePath)
-      : undefined,
-
-    fileData.slug
-      ? resolve(cwd, "content", `${fileData.slug}.md`)
-      : undefined,
-  ].filter((file): file is string => Boolean(file))
-
-  for (const file of candidates) {
-    if (existsSync(file)) {
-      console.log(`[OG TOC] Markdown found: ${file}`)
-      return readFileSync(file, "utf8")
-    }
-  }
-
-  console.error("[OG TOC] Could not locate source Markdown", {
-    cwd,
-    filePath: fileData.filePath,
-    slug: fileData.slug,
-    candidates,
-  })
-
-  return ""
-}
-
-const markdown = getOriginalMarkdown(fileData)
-const headings: string[] = []
-
-let insideCodeBlock = false
-let fenceChar = ""
-let fenceLength = 0
-
-const lines = markdown.split(/\r?\n/)
-
-for (let i = 0; i < lines.length; i++) {
-  const line = lines[i]
-
-  // Ignore YAML frontmatter
-  if (i === 0 && line.trim() === "---") {
-    while (++i < lines.length && lines[i].trim() !== "---") {}
-    continue
-  }
-
-  // Ignore fenced code blocks
-  const fence = line.match(/^\s*(`{3,}|~{3,})/)
-
-  if (fence) {
-    const marker = fence[1]
-
-    if (!insideCodeBlock) {
-      insideCodeBlock = true
-      fenceChar = marker[0]
-      fenceLength = marker.length
-    } else if (
-      marker[0] === fenceChar &&
-      marker.length >= fenceLength
-    ) {
-      insideCodeBlock = false
-    }
-
-    continue
-  }
-
-  if (insideCodeBlock) continue
-
-  // ATX H1: # Heading
-  const atx = line.match(/^#\s+(.+?)\s*#*\s*$/)
-
-  if (atx) {
-    headings.push(atx[1])
-    continue
-  }
-
-  // Setext H1:
-  // Heading
-  // =======
-  if (
-    line.trim() &&
-    i + 1 < lines.length &&
-    /^=+\s*$/.test(lines[i + 1])
-  ) {
-    headings.push(line.trim())
-    i++
-  }
-}
-
-// Clean Markdown formatting from heading labels
-const tocHeadings = headings.map((heading) =>
-  heading
-    .replace(/\s*\{#[^}]+\}\s*$/, "")
-    .replace(/`([^`]+)`/g, "$1")
-    .replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, "$2")
-    .replace(/\[\[([^\]]+)\]\]/g, "$1")
-    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-    .trim(),
-)
+    const categories = [
+      ...new Set(
+        tags
+          .filter(
+            (tag) => tag.replace(/^#/, "").toLowerCase() !== "unfinished",
+          )
+          .map((tag) => tag.replace(/^#/, "")),
+      ),
+    ]
 
     // -------------------------------------------------------------------------
     // Colors
@@ -212,7 +113,7 @@ const tocHeadings = headings.map((heading) =>
     const bodyFont = fonts[1].name
 
     // -------------------------------------------------------------------------
-    // Author initials
+    // Author initials (fallback for missing favicon)
     // -------------------------------------------------------------------------
 
     const initials = author
@@ -224,7 +125,6 @@ const tocHeadings = headings.map((heading) =>
 
     // -------------------------------------------------------------------------
     // Reusable components
-    // Preact h() returns the VNodes consumed by Satori.
     // -------------------------------------------------------------------------
 
     const text = (
@@ -317,7 +217,7 @@ const tocHeadings = headings.map((heading) =>
             },
           },
 
-          // Author monogram
+          // Real favicon
 
           h(
             "div",
@@ -332,13 +232,31 @@ const tocHeadings = headings.map((heading) =>
                 borderRadius: 12,
                 backgroundColor: colors.surfaceAlt,
                 border: `1px solid ${colors.border}`,
-                color: colors.accent,
-                fontFamily: headerFont,
-                fontSize: 38,
-                fontWeight: 700,
               },
             },
-            initials || "?",
+
+            iconBase64
+              ? h("img", {
+                  src: iconBase64,
+                  width: 76,
+                  height: 76,
+                  style: {
+                    objectFit: "contain",
+                  },
+                })
+              : h(
+                  "div",
+                  {
+                    style: {
+                      display: "flex",
+                      color: colors.accent,
+                      fontFamily: headerFont,
+                      fontSize: 48,
+                      fontWeight: 700,
+                    },
+                  },
+                  initials || "?",
+                ),
           ),
 
           // Author name
@@ -365,10 +283,18 @@ const tocHeadings = headings.map((heading) =>
 
             text(author, {
               fontFamily: headerFont,
-              fontSize: 27,
+              fontSize: 36,
               fontWeight: 700,
               marginTop: 10,
               lineClamp: 2,
+            }),
+
+            text("PERSONAL KNOWLEDGE BASE", {
+              color: colors.muted,
+              fontSize: 10,
+              fontWeight: 600,
+              letterSpacing: 1.5,
+              marginTop: 8,
             }),
           ),
 
@@ -442,7 +368,7 @@ const tocHeadings = headings.map((heading) =>
               backgroundColor: colors.surface,
               border: `1px solid ${colors.border}`,
               borderRadius: 12,
-              padding: 32,
+              padding: 36,
               overflow: "hidden",
             },
           },
@@ -457,7 +383,7 @@ const tocHeadings = headings.map((heading) =>
 
           text(title, {
             fontFamily: headerFont,
-            fontSize: title.length > 45 ? 43 : 58,
+            fontSize: title.length > 45 ? 54 : 72,
             fontWeight: 800,
             lineHeight: 1.15,
             letterSpacing: -1.5,
@@ -470,7 +396,7 @@ const tocHeadings = headings.map((heading) =>
       ),
 
       // =======================================================================
-      // RIGHT COLUMN: TABLE OF CONTENTS
+      // RIGHT COLUMN: DESCRIPTION AND TOPICS
       // =======================================================================
 
       h(
@@ -485,13 +411,14 @@ const tocHeadings = headings.map((heading) =>
             border: `1px solid ${colors.border}`,
             borderRadius: 12,
             padding: 22,
+            gap: 18,
             overflow: "hidden",
           },
         },
 
-        text("CONTENTS", {
+        text("ABOUT THIS NOTE", {
           fontFamily: headerFont,
-          fontSize: 19,
+          fontSize: 20,
           fontWeight: 800,
           letterSpacing: 1,
         }),
@@ -505,66 +432,71 @@ const tocHeadings = headings.map((heading) =>
             height: 3,
             backgroundColor: colors.accent,
             borderRadius: 2,
-            marginTop: 14,
-            marginBottom: 18,
           },
         }),
 
-        // H1 entries
+        // Description
+
+        text("DESCRIPTION", {
+          color: colors.muted,
+          fontSize: 11,
+          fontWeight: 700,
+          letterSpacing: 1.5,
+        }),
+
+        text(
+          description || "A note from the personal knowledge base.",
+          {
+            color: colors.secondary,
+            fontSize: 17,
+            lineHeight: 1.5,
+            overflow: "hidden",
+            display: "-webkit-box",
+            WebkitBoxOrient: "vertical",
+            WebkitLineClamp: 7,
+          },
+        ),
+
+        // Topics
+
+        text("TOPICS", {
+          color: colors.muted,
+          fontSize: 11,
+          fontWeight: 700,
+          letterSpacing: 1.5,
+          marginTop: 8,
+        }),
 
         h(
           "div",
           {
             style: {
               display: "flex",
-              flexDirection: "column",
-              gap: 13,
-              overflow: "hidden",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              gap: 8,
             },
           },
 
-          ...tocHeadings.slice(0, 15).map(
-            (heading: string, index: number) =>
-              h(
-                "div",
-                {
-                  key: `${index}-${heading}`,
-                  style: {
-                    display: "flex",
-                    flexDirection: "row",
-                    alignItems: "flex-start",
-                    gap: 10,
-                  },
-                },
-
-                text(String(index + 1).padStart(2, "0"), {
-                  color: colors.accent,
-                  fontSize: 13,
-                  fontWeight: 700,
-                  flexShrink: 0,
-                }),
-
-                text(heading, {
-                  fontSize: 15,
+          ...categories.slice(0, 8).map((tag: string) =>
+            h(
+              "div",
+              {
+                key: tag,
+                style: {
+                  display: "flex",
+                  padding: "7px 10px",
+                  borderRadius: 6,
+                  backgroundColor: colors.surfaceAlt,
+                  border: `1px solid ${colors.border}`,
                   color: colors.secondary,
-                  lineHeight: 1.4,
-                  display: "-webkit-box",
-                  WebkitBoxOrient: "vertical",
-                  WebkitLineClamp: 2,
-                  overflow: "hidden",
-                }),
-              ),
+                  fontSize: 13,
+                },
+              },
+              `#${tag}`,
+            ),
           ),
         ),
-
-        ...(tocHeadings.length === 0
-          ? [
-              text("No headings available.", {
-                color: colors.muted,
-                fontSize: 14,
-              }),
-            ]
-          : []),
       ),
     )
   },
