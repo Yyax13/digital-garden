@@ -1,5 +1,4 @@
 
-import { createElement as h } from "react"
 import * as ExternalPlugin from "./.quartz/plugins"
 import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 
@@ -7,6 +6,26 @@ import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/conf
 // Custom Open Graph image
 // Must be registered BEFORE loadQuartzConfig()
 // -----------------------------------------------------------------------------
+
+// Satori-compatible element factory (no React dependency)
+const h = (
+  type: string,
+  props: Record<string, any> | null,
+  ...children: any[]
+) => ({
+  type,
+  props: {
+    ...(props ?? {}),
+    ...(children.length > 0
+      ? {
+          children:
+            children.length === 1
+              ? children[0]
+              : children,
+        }
+      : {}),
+  },
+})
 
 ExternalPlugin.CustomOgImages({
   colorScheme: "darkMode",
