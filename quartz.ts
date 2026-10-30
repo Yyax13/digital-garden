@@ -5,6 +5,8 @@ import {
   loadQuartzConfig,
   loadQuartzLayout,
 } from "./quartz/plugins/loader/config-loader"
+import { existsSync, readFileSync } from "node:fs"
+import { resolve } from "node:path"
 
 // -----------------------------------------------------------------------------
 // Custom OG Images
@@ -37,7 +39,7 @@ ExternalPlugin.CustomOgImages({
       ? rawAuthor.join(", ")
       : typeof rawAuthor === "string"
         ? rawAuthor
-        : "Unknown author"
+        : "h0wos3c"
 
     const rawDate =
       dates.published ??
@@ -77,44 +79,105 @@ ExternalPlugin.CustomOgImages({
     )
 
     // -------------------------------------------------------------------------
-    // Table of Contents: H1 only
-    // -------------------------------------------------------------------------
+// Table of Contents: H1 only
+// Read original Markdown through fileData.filePath
+// -------------------------------------------------------------------------
 
-    const markdown = String(fileData?.text ?? "")
-    const headings: string[] = []
+function getOriginalMarkdown(fileData: any): string {
+  const candidates = [
+    fileData.filePath
+      ? resolve(fileData.filePath)
+      : undefined,
 
-    let insideCodeBlock = false
-    let codeFence = ""
+    fileData.filePath
+      ? resolve("content", fileData.filePath)
+      : undefined,
 
-    for (const line of markdown.split(/\r?\n/)) {
-      const fenceMatch = line.match(/^\s*(`{3,}|~{3,})/)
+    fileData.slug
+      ? resolve("content", `${fileData.slug}.md`)
+      : undefined,
+  ]
 
-      if (fenceMatch) {
-        const currentFence = fenceMatch[1][0]
-
-        if (!insideCodeBlock) {
-          insideCodeBlock = true
-          codeFence = currentFence
-        } else if (currentFence === codeFence) {
-          insideCodeBlock = false
-          codeFence = ""
-        }
-
-        continue
-      }
-
-      if (insideCodeBlock) continue
-
-      const match = line.match(/^#\s+(.+?)\s*#*\s*$/)
-
-      if (match) {
-        headings.push(
-          match[1]
-            .replace(/\s*\{#[^}]+\}\s*$/, "")
-            .trim(),
-        )
-      }
+  for (const file of candidates) {
+    if (file && existsSync(file)) {
+      return readFileSync(file, "utf8")
     }
+  }
+
+  return ""
+}
+
+const markdown = getOriginalMarkdown(fileData)
+const headings: string[] = []
+
+let insideCodeBlock = false
+let fenceChar = ""
+let fenceLength = 0
+
+const lines = markdown.split(/\r?\n/)
+
+for (let i = 0; i < lines.length; i++) {
+  const line = lines[i]
+
+  // Ignore YAML frontmatter
+  if (i === 0 && line.trim() === "---") {
+    while (++i < lines.length && lines[i].trim() !== "---") {}
+    continue
+  }
+
+  // Ignore fenced code blocks
+  const fence = line.match(/^\s*(`{3,}|~{3,})/)
+
+  if (fence) {
+    const marker = fence[1]
+
+    if (!insideCodeBlock) {
+      insideCodeBlock = true
+      fenceChar = marker[0]
+      fenceLength = marker.length
+    } else if (
+      marker[0] === fenceChar &&
+      marker.length >= fenceLength
+    ) {
+      insideCodeBlock = false
+    }
+
+    continue
+  }
+
+  if (insideCodeBlock) continue
+
+  // ATX H1: # Heading
+  const atx = line.match(/^#\s+(.+?)\s*#*\s*$/)
+
+  if (atx) {
+    headings.push(atx[1])
+    continue
+  }
+
+  // Setext H1:
+  // Heading
+  // =======
+  if (
+    line.trim() &&
+    i + 1 < lines.length &&
+    /^=+\s*$/.test(lines[i + 1])
+  ) {
+    headings.push(line.trim())
+    i++
+  }
+}
+
+// Clean Markdown formatting from heading labels
+const tocHeadings = headings.map((heading) =>
+  heading
+    .replace(/\s*\{#[^}]+\}\s*$/, "")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/\[\[([^|\]]+)\|([^\]]+)\]\]/g, "$2")
+    .replace(/\[\[([^\]]+)\]\]/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .trim(),
+)
 
     // -------------------------------------------------------------------------
     // Colors
@@ -450,7 +513,7 @@ ExternalPlugin.CustomOgImages({
             },
           },
 
-          ...headings.slice(0, 15).map(
+          ...tocHeadings.slice(0, 15).map(
             (heading: string, index: number) =>
               h(
                 "div",
@@ -484,7 +547,7 @@ ExternalPlugin.CustomOgImages({
           ),
         ),
 
-        ...(headings.length === 0
+        ...(tocHeadings.length === 0
           ? [
               text("No headings available.", {
                 color: colors.muted,
